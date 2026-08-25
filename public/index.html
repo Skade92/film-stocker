@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CinéClub — Accueil</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="home">
+  <div id="nav-placeholder"></div>
+
+  <main class="page">
+    <div class="page-head">
+      <div>
+        <h1 class="page-title">Notre <em>collection</em></h1>
+        <p class="page-subtitle" id="count-subtitle">Chargement des films…</p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input type="search" id="search-input" placeholder="Rechercher un film…">
+      <select id="type-filter"></select>
+      <select id="genre-filter"></select>
+      <select id="platform-filter">
+        <option value="">Toutes les plateformes</option>
+        <option value="DVD">DVD</option>
+        <option value="disque dur">Disque dur</option>
+      </select>
+    </div>
+
+    <div class="movie-grid" id="movie-grid">
+      <div class="spinner-note">Chargement des films…</div>
+    </div>
+  </main>
+
+  <footer class="footer">CinéClub — collection privée, entre nous.</footer>
+
+  <script src="/js/nav.js"></script>
+  <script src="/js/movies.js"></script>
+  <script>
+    const grid = document.getElementById('movie-grid');
+    const searchInput = document.getElementById('search-input');
+    const typeFilter = document.getElementById('type-filter');
+    const genreFilter = document.getElementById('genre-filter');
+    const platformFilter = document.getElementById('platform-filter');
+    const subtitle = document.getElementById('count-subtitle');
+    let debounceTimer;
+
+    function applyFilters() {
+      const movies = filterMovies({
+        search: searchInput.value.trim(),
+        type: typeFilter.value,
+        genre: genreFilter.value,
+        platform: platformFilter.value,
+      });
+      subtitle.textContent = `${movies.length} film${movies.length > 1 ? 's' : ''} dans la collection`;
+      renderMovieGrid(grid, movies);
+    }
+
+    [typeFilter, genreFilter, platformFilter].forEach(el => el.addEventListener('change', applyFilters));
+    searchInput.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(applyFilters, 200);
+    });
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      await loadAllMovies();
+      populateFilterOptions(typeFilter, genreFilter);
+      applyFilters();
+    });
+  </script>
+</body>
+</html>
