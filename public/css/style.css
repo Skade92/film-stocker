@@ -135,7 +135,12 @@ img { max-width: 100%; display: block; }
   .nav__links.open { display: flex; }
   .nav__burger { display: inline-flex; }
   .nav { flex-wrap: wrap; }
+  .modal__top { flex-direction: column; padding: 24px; }
+  .modal__poster { width: 100%; min-width: 0; max-width: 220px; margin: 0 auto; }
+  .modal__title { font-size: 26px; text-align: center; }
+  .modal__tags { justify-content: center; }
 }
+
 
 /* ---------- Layout ---------- */
 .page {
@@ -297,6 +302,14 @@ label {
   font-family: var(--font-body);
   font-weight: 600;
 }
+.movie-card__badge--dvd {
+  border-color: #3fae66;
+  color: #5fd487;
+}
+.movie-card__badge--diskdur {
+  border-color: var(--gold-dim);
+  color: var(--gold);
+}
 .movie-card__watched {
   position: absolute;
   top: 8px;
@@ -341,7 +354,7 @@ label {
   background: rgba(8,7,9,0.75);
   backdrop-filter: blur(3px);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   padding: 40px 16px;
   overflow-y: auto;
@@ -353,9 +366,10 @@ label {
   background: var(--bg-card);
   border: 1px solid var(--line);
   border-radius: 16px;
-  max-width: 720px;
+  max-width: 920px;
   width: 100%;
-  overflow: hidden;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
   animation: modal-in .18s ease-out;
 }
 @keyframes modal-in {
@@ -365,15 +379,15 @@ label {
 
 .modal__top {
   display: flex;
-  gap: 20px;
-  padding: 24px;
+  gap: 28px;
+  padding: 32px;
   border-bottom: 1px solid var(--line);
 }
 .modal__poster {
-  width: 130px;
-  min-width: 130px;
+  width: 220px;
+  min-width: 220px;
   aspect-ratio: 2/3;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   background: linear-gradient(160deg, #2a2432, #171319);
   display: flex;
@@ -381,16 +395,16 @@ label {
   justify-content: center;
   color: var(--text-dim);
   font-family: var(--font-display);
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
-  padding: 8px;
+  padding: 12px;
 }
 .modal__poster img { width: 100%; height: 100%; object-fit: cover; }
 
 .modal__title {
   font-family: var(--font-display);
-  font-size: 26px;
-  margin: 0 0 8px;
+  font-size: 34px;
+  margin: 0 0 12px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
@@ -411,6 +425,8 @@ label {
 }
 .tag-gold { border-color: var(--gold-dim); color: var(--gold); }
 .tag-velvet { border-color: var(--velvet-bright); color: var(--velvet-bright); }
+.tag-dvd { border-color: #3fae66; color: #5fd487; }
+.tag-diskdur { border-color: var(--gold-dim); color: var(--gold); }
 
 .modal__info {
   font-size: 13.5px;
@@ -613,3 +629,52 @@ label {
 }
 
 .spinner-note { color: var(--text-dim); font-size: 14px; padding: 30px 0; text-align: center; }
+
+/* ---------- Films de la même saga (dans la modale) ---------- */
+.modal__related {
+  padding: 22px 32px 30px;
+}
+.related-row {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+.related-card {
+  cursor: pointer;
+  flex: 0 0 104px;
+  width: 104px;
+}
+.related-card__poster {
+  aspect-ratio: 2/3;
+  border-radius: 8px;
+  overflow: hidden;
+  background: linear-gradient(160deg, #2a2432, #171319);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dim);
+  font-family: var(--font-display);
+  font-size: 11px;
+  text-align: center;
+  padding: 6px;
+  transition: border-color .15s, transform .15s;
+}
+.related-card:hover .related-card__poster,
+.related-card:focus-visible .related-card__poster {
+  border-color: var(--gold-dim);
+  transform: translateY(-3px);
+}
+.related-card__poster img { width: 100%; height: 100%; object-fit: cover; }
+.related-card__title {
+  font-size: 12px;
+  margin: 6px 0 0;
+  color: var(--text-dim);
+  text-align: center;
+  line-height: 1.3;
+}
+
+@media (max-width: 780px) {
+  .modal__related { padding: 18px 20px 24px; }
+}

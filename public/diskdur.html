@@ -21,6 +21,10 @@
       <input type="search" id="search-input" placeholder="Rechercher un film…">
       <select id="type-filter"></select>
       <select id="genre-filter"></select>
+      <select id="sort-select">
+        <option value="name-asc">Nom (A → Z)</option>
+        <option value="name-desc">Nom (Z → A)</option>
+      </select>
     </div>
 
     <div class="movie-grid" id="movie-grid">
@@ -37,21 +41,25 @@
     const searchInput = document.getElementById('search-input');
     const typeFilter = document.getElementById('type-filter');
     const genreFilter = document.getElementById('genre-filter');
+    const sortSelect = document.getElementById('sort-select');
     const subtitle = document.getElementById('count-subtitle');
     let debounceTimer;
 
     function applyFilters() {
+      const [sortBy, sortDir] = sortSelect.value.split('-');
       const movies = filterMovies({
         search: searchInput.value.trim(),
         type: typeFilter.value,
         genre: genreFilter.value,
         platform: 'disque dur',
+        sortBy,
+        sortDir,
       });
       subtitle.textContent = `${movies.length} film${movies.length > 1 ? 's' : ''} sur le disque dur`;
       renderMovieGrid(grid, movies);
     }
 
-    [typeFilter, genreFilter].forEach(el => el.addEventListener('change', applyFilters));
+    [typeFilter, genreFilter, sortSelect].forEach(el => el.addEventListener('change', applyFilters));
     searchInput.addEventListener('input', () => {
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(applyFilters, 200);

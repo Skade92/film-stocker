@@ -26,6 +26,10 @@
         <option value="DVD">DVD</option>
         <option value="disque dur">Disque dur</option>
       </select>
+      <select id="sort-select">
+        <option value="name-asc">Nom (A → Z)</option>
+        <option value="name-desc">Nom (Z → A)</option>
+      </select>
     </div>
 
     <div class="movie-grid" id="movie-grid">
@@ -43,21 +47,25 @@
     const typeFilter = document.getElementById('type-filter');
     const genreFilter = document.getElementById('genre-filter');
     const platformFilter = document.getElementById('platform-filter');
+    const sortSelect = document.getElementById('sort-select');
     const subtitle = document.getElementById('count-subtitle');
     let debounceTimer;
 
     function applyFilters() {
+      const [sortBy, sortDir] = sortSelect.value.split('-');
       const movies = filterMovies({
         search: searchInput.value.trim(),
         type: typeFilter.value,
         genre: genreFilter.value,
         platform: platformFilter.value,
+        sortBy,
+        sortDir,
       });
       subtitle.textContent = `${movies.length} film${movies.length > 1 ? 's' : ''} dans la collection`;
       renderMovieGrid(grid, movies);
     }
 
-    [typeFilter, genreFilter, platformFilter].forEach(el => el.addEventListener('change', applyFilters));
+    [typeFilter, genreFilter, platformFilter, sortSelect].forEach(el => el.addEventListener('change', applyFilters));
     searchInput.addEventListener('input', () => {
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(applyFilters, 200);

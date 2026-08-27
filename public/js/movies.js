@@ -18,14 +18,64 @@ async function loadAllMovies() {
   return MOVIES_LOADED;
 }
 
-function filterMovies({ search, type, genre, platform } = {}) {
-  return ALL_MOVIES.filter(m => {
+function filterMovies({ search, type, genre, platform, sortBy = 'name', sortDir = 'asc' } = {}) {
+  const filtered = ALL_MOVIES.filter(m => {
     if (platform && m.platform !== platform) return false;
     if (type && m.type !== type) return false;
     if (genre && !(m.genre || '').split(',').map(s => s.trim()).includes(genre)) return false;
     if (search && !m.name.toLowerCase().includes(search.toLowerCase())) return false;
     return true;
-  }).sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
+  });
+
+  const dir = sortDir === 'desc' ? -1 : 1;
+  filtered.sort((a, b) => {
+    let cmp;
+    if (sortBy === 'genre') {
+      const ga = (a.genre || '').split(',')[0].trim();
+      const gb = (b.genre || '').split(',')[0].trim();
+      cmp = ga.localeCompare(gb, 'fr', { sensitivity: 'base' });
+      if (cmp === 0) cmp = a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
+    } else {
+      cmp = a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
+    }
+    return cmp * dir;
+  });
+
+  return filtered;
+}
+
+// ---------- Regroupement par saga (ex: Harry Potter 1, 2, 3…) ----------
+
+function normalizeKey(str) {
+  return (str || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function franchiseKey(name) {
+  const cleaned = (name || '').replace(/\s*\(\d{4}\)\s*/g, ' ').trim();
+  // ex: "Harry Potter 3 - et le Prisonnier d'Askaban" -> base "Harry Potter"
+  const m = cleaned.match(/^(.*?)[\s:\-–]+\b(\d{1,2}|I{1,3}|IV|VI{0,3}|IX|X)\b/);
+  if (m && m[1].trim().length >= 3) {
+    return normalizeKey(m[1]);
+  }
+  // ex: "Le Seigneur des Anneaux - La Communauté de l'anneau" -> base "Le Seigneur des Anneaux"
+  const dashIdx = cleaned.indexOf(' - ');
+  if (dashIdx > 2) {
+    return normalizeKey(cleaned.slice(0, dashIdx));
+  }
+  return normalizeKey(cleaned);
+}
+
+function getRelatedMovies(movie) {
+  const key = franchiseKey(movie.name);
+  if (!key) return [];
+  return ALL_MOVIES
+    .filter(m => m.id !== movie.id && franchiseKey(m.name) === key)
+    .sort((a, b) => a.name.localeCompare(b.name, 'fr', { numeric: true, sensitivity: 'base' }));
 }
 
 function posterPlaceholder(name) {
@@ -41,7 +91,7 @@ function movieCardHtml(m) {
     <div class="movie-card" data-id="${m.id}" tabindex="0" role="button" aria-label="Voir la fiche de ${escapeHtml(m.name)}">
       <div class="movie-card__poster">
         ${poster}
-        <span class="movie-card__badge">${escapeHtml(m.platform === 'disque dur' ? 'Disque dur' : m.platform)}</span>
+        <span class="movie-card__badge ${m.platform === 'disque dur' ? 'movie-card__badge--diskdur' : 'movie-card__badge--dvd'}">${escapeHtml(m.platform === 'disque dur' ? 'Disque dur' : m.platform)}</span>
       </div>
       <div class="movie-card__body">
         <p class="movie-card__title">${escapeHtml(m.name)}</p>
@@ -120,7 +170,27 @@ async function openMovieModal(id) {
   await loadAllMovies();
   const movie = ALL_MOVIES.find(m => m.id === id);
   overlay.classList.remove('hidden');
+  overlay.scrollTop = 0;
   content.innerHTML = movie ? movieModalHtml(movie) : `<div class="modal__body">Film introuvable.</div>`;
+
+  content.querySelectorAll('.related-card').forEach(card => {
+    const open = () => openMovieModal(Number(card.dataset.id));
+    card.addEventListener('click', open);
+    card.addEventListener('keydown', e => { if (e.key === 'Enter') open(); });
+  });
+}
+
+function relatedMovieCardHtml(m) {
+  const poster = m.image_url
+    ? `<img src="${escapeHtml(m.image_url)}" alt="Affiche de ${escapeHtml(m.name)}" loading="lazy" onerror="this.parentElement.innerHTML='${posterPlaceholder(m.name).replace(/'/g, "\\'")}'">`
+    : posterPlaceholder(m.name);
+
+  return `
+    <div class="related-card" data-id="${m.id}" tabindex="0" role="button" aria-label="Voir la fiche de ${escapeHtml(m.name)}">
+      <div class="related-card__poster">${poster}</div>
+      <p class="related-card__title">${escapeHtml(m.name)}</p>
+    </div>
+  `;
 }
 
 function movieModalHtml(m) {
@@ -129,6 +199,15 @@ function movieModalHtml(m) {
     : posterPlaceholder(m.name);
 
   const genres = (m.genre || '').split(',').map(g => g.trim()).filter(Boolean);
+  const related = getRelatedMovies(m);
+  const relatedHtml = related.length ? `
+    <div class="modal__related">
+      <p class="modal__section-title">Dans la même saga</p>
+      <div class="related-row">
+        ${related.map(relatedMovieCardHtml).join('')}
+      </div>
+    </div>
+  ` : '';
 
   return `
     <button class="modal__close" onclick="closeMovieModal()" aria-label="Fermer">✕</button>
@@ -139,7 +218,7 @@ function movieModalHtml(m) {
         <div class="modal__tags">
           ${m.type ? `<span class="tag tag-gold">${escapeHtml(m.type)}</span>` : ''}
           ${genres.map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}
-          <span class="tag tag-velvet">${escapeHtml(m.platform === 'disque dur' ? 'Disque dur' : m.platform)}</span>
+          <span class="tag ${m.platform === 'disque dur' ? 'tag-diskdur' : 'tag-dvd'}">${escapeHtml(m.platform === 'disque dur' ? 'Disque dur' : m.platform)}</span>
         </div>
         <div class="modal__info">
           <div><strong>Durée :</strong> ${escapeHtml(m.length || 'Non renseignée')}</div>
@@ -147,5 +226,6 @@ function movieModalHtml(m) {
         </div>
       </div>
     </div>
+    ${relatedHtml}
   `;
 }
