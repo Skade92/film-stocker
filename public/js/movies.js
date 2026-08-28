@@ -23,6 +23,24 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+// Corrige les incohérences de casse toutes simples dans les données
+// (ex: "film" vs "Film", "thriller" vs "Thriller") sans toucher aux valeurs
+// qui ont volontairement une casse particulière (ex: "Sci-Fi").
+function normalizeLabel(str) {
+  const s = (str || '').trim();
+  if (!s) return s;
+  return s === s.toLowerCase() ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+}
+
+// Un film peut avoir plusieurs genres dans un seul champ, séparés par "/"
+// (ex: "Action / Thriller / Drame") : on les éclate en une liste propre.
+function splitGenres(genreStr) {
+  return (genreStr || '')
+    .split('/')
+    .map(g => normalizeLabel(g))
+    .filter(Boolean);
+}
+
 async function loadAllMovies() {
   if (!MOVIES_LOADED) {
     MOVIES_LOADED = fetch('/data/movies.json')
@@ -32,7 +50,10 @@ async function loadAllMovies() {
         // fichier : peu importe l'ordre ou les ids présents dans movies.json,
         // pas besoin d'y toucher en ajoutant des films (même sans champ "id",
         // ou en les mettant n'importe où dans le fichier).
-        data.forEach((m, i) => { m.id = i + 1; });
+        data.forEach((m, i) => {
+          m.id = i + 1;
+          m.type = normalizeLabel(m.type);
+        });
         ALL_MOVIES = data;
         return data;
       });
@@ -55,7 +76,7 @@ function filterMovies({ search, type, genre, platform, sortBy = 'name', sortDir 
   const filtered = ALL_MOVIES.filter(m => {
     if (platform && !(m.platforms || []).includes(platform)) return false;
     if (type && m.type !== type) return false;
-    if (genre && !(m.genre || '').split(',').map(s => s.trim()).includes(genre)) return false;
+    if (genre && !splitGenres(m.genre).includes(genre)) return false;
     if (searchNorm && !normalizeSearch(m.name).includes(searchNorm)) return false;
     return true;
   });
@@ -64,8 +85,8 @@ function filterMovies({ search, type, genre, platform, sortBy = 'name', sortDir 
   filtered.sort((a, b) => {
     let cmp;
     if (sortBy === 'genre') {
-      const ga = (a.genre || '').split(',')[0].trim();
-      const gb = (b.genre || '').split(',')[0].trim();
+      const ga = splitGenres(a.genre)[0] || '';
+      const gb = splitGenres(b.genre)[0] || '';
       cmp = ga.localeCompare(gb, 'fr', { sensitivity: 'base' });
       if (cmp === 0) cmp = a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
     } else {
@@ -286,7 +307,7 @@ function movieCardHtml(m) {
       </div>
       <div class="movie-card__body">
         <p class="movie-card__title">${escapeHtml(m.name)}</p>
-        <p class="movie-card__meta">${escapeHtml(m.type || '')}${m.genre ? ' · ' + escapeHtml(m.genre.split(',')[0].trim()) : ''}</p>
+        <p class="movie-card__meta">${escapeHtml(m.type || '')}${m.genre ? ' · ' + escapeHtml(splitGenres(m.genre)[0] || '') : ''}</p>
       </div>
     </div>
   `;
@@ -314,7 +335,7 @@ function populateFilterOptions(typeSelect, genreSelect, movies) {
   const source = movies || ALL_MOVIES;
   const types = Array.from(new Set(source.map(m => m.type).filter(Boolean))).sort((a, b) => a.localeCompare(b, 'fr'));
   const genreSet = new Set();
-  source.forEach(m => (m.genre || '').split(',').map(s => s.trim()).filter(Boolean).forEach(g => genreSet.add(g)));
+  source.forEach(m => splitGenres(m.genre).forEach(g => genreSet.add(g)));
   const genres = Array.from(genreSet).sort((a, b) => a.localeCompare(b, 'fr'));
 
   if (typeSelect) {
@@ -389,7 +410,7 @@ function movieModalHtml(m) {
     ? `<img src="${escapeHtml(m.image_url)}" alt="Affiche de ${escapeHtml(m.name)}">`
     : posterPlaceholder(m.name);
 
-  const genres = (m.genre || '').split(',').map(g => g.trim()).filter(Boolean);
+  const genres = splitGenres(m.genre);
   const related = getRelatedMovies(m);
   const relatedHtml = related.length ? `
     <div class="modal__related">

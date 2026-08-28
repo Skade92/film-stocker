@@ -4832,7 +4832,7 @@
   {
     "name": "Les 101 dalmatiens",
     "length": "1h43min",
-    "type": "film",
+    "type": "Film",
     "genre": "Enfantin",
     "platforms": [
       "disque dur"
@@ -6227,7 +6227,7 @@
       "disque dur"
     ],
     "id": 476,
-    "image_url": "/img/posters/Qu_est_Ce_Qu_on_A_Fait_Au_Bon_Dieu.png",
+    "image_url": "/img/posters/Qu_est_Ce_Qu_on_A_Fait_Au_Bon_Dieu.jpg",
     "trailer_url": "https://www.youtube.com/watch?v=QerOPic11Tk",
     "intrigue": "Un couple bourgeois catholique voit ses filles épouser des hommes issus de cultures et religions différentes."
   },
