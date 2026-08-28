@@ -3,6 +3,20 @@
 let ALL_MOVIES = [];
 let MOVIES_LOADED = null;
 
+const PLATFORM_LABELS = {
+  'DVD': 'DVD',
+  'disque dur': 'Disque dur',
+  'YouTube': 'YouTube',
+  'Prime video': 'Prime Video',
+};
+
+const PLATFORM_CLASS = {
+  'DVD': 'dvd',
+  'disque dur': 'diskdur',
+  'YouTube': 'youtube',
+  'Prime video': 'primevideo',
+};
+
 function escapeHtml(str) {
   const div = document.createElement('div');
   div.textContent = str == null ? '' : String(str);
@@ -13,7 +27,15 @@ async function loadAllMovies() {
   if (!MOVIES_LOADED) {
     MOVIES_LOADED = fetch('/data/movies.json')
       .then(res => res.json())
-      .then(data => { ALL_MOVIES = data; return data; });
+      .then(data => {
+        // L'id est régénéré automatiquement à partir de la position dans le
+        // fichier : peu importe l'ordre ou les ids présents dans movies.json,
+        // pas besoin d'y toucher en ajoutant des films (même sans champ "id",
+        // ou en les mettant n'importe où dans le fichier).
+        data.forEach((m, i) => { m.id = i + 1; });
+        ALL_MOVIES = data;
+        return data;
+      });
   }
   return MOVIES_LOADED;
 }
@@ -25,10 +47,13 @@ function normalizeSearch(str) {
     .toLowerCase();
 }
 
+// Un film peut être sur plusieurs plateformes (ex: "disque dur" + "DVD") :
+// il doit apparaître dans les résultats dès que l'une de ses plateformes
+// correspond au filtre choisi.
 function filterMovies({ search, type, genre, platform, sortBy = 'name', sortDir = 'asc' } = {}) {
   const searchNorm = search ? normalizeSearch(search) : '';
   const filtered = ALL_MOVIES.filter(m => {
-    if (platform && m.platform !== platform) return false;
+    if (platform && !(m.platforms || []).includes(platform)) return false;
     if (type && m.type !== type) return false;
     if (genre && !(m.genre || '').split(',').map(s => s.trim()).includes(genre)) return false;
     if (searchNorm && !normalizeSearch(m.name).includes(searchNorm)) return false;
@@ -65,66 +90,109 @@ function normalizeKey(str) {
 
 // Sagas connues qui n'ont pas forcément de numéro ou de tiret dans le titre
 // (ex: "007 - Skyfall", "Fast & Furious 6", "Mission Impossible : Fallout"...).
-// Triée par longueur décroissante pour matcher l'alias le plus spécifique en premier.
-const KNOWN_FRANCHISES = [
-  'harry potter',
-  'le seigneur des anneaux',
-  'seigneur des anneaux',
-  'le hobbit',
-  'star wars',
-  'jason bourne',
-  'alvin et les chipmunks',
-  'asterix',
-  'baby boss',
-  'balto',
-  'transporter',
-  'james bond',
-  '007',
-  'mission impossible',
-  'jack reacher',
-  'fast and furious',
-  'fast furious',
-  'the matrix',
-  'matrix',
-  'transformers',
-  'transformer',
-  'barbie',
-  'mickey',
-  'shrek',
-  'toy story',
-  'cars',
-  'indiana jones',
-  'rocky',
-  'terminator',
-  'die hard',
-  'jurassic park',
-  'jurassic world',
-  'pirates des caraibes',
-  'avengers',
-  'spider man',
-  'batman',
-  'x men',
-  'dragons',
-].sort((a, b) => b.length - a.length);
+// `aliases` : les bouts de titre (normalisés, sans accents) qui rattachent un
+// film à la saga — peu importe où ils apparaissent dans le titre.
+// `order` (optionnel) : quand le tri alphabétique/numérique par défaut ne
+// donne pas le bon ordre chronologique (ex: les films ne portent pas de
+// numéro dans leur titre), on force l'ordre ici via des bouts de titre
+// distinctifs, du premier au dernier film de la saga.
+const FRANCHISES = [
+  { key: 'harry-potter', aliases: ['harry potter'] },
+  { key: 'seigneur-des-anneaux', aliases: ['le seigneur des anneaux', 'seigneur des anneaux'] },
+  { key: 'hobbit', aliases: ['le hobbit'] },
+  { key: 'star-wars', aliases: ['star wars'] },
+  { key: 'jason-bourne', aliases: ['jason bourne', 'dans la peau'] },
+  { key: 'alvin', aliases: ['alvin et les chipmunks'] },
+  { key: 'asterix', aliases: ['asterix'] },
+  { key: 'baby-boss', aliases: ['baby boss'] },
+  { key: 'balto', aliases: ['balto'] },
+  { key: 'transporter', aliases: ['transporter', 'transporteur'] },
+  { key: 'james-bond', aliases: ['james bond', '007'] },
+  { key: 'mission-impossible', aliases: ['mission impossible'] },
+  { key: 'jack-reacher', aliases: ['jack reacher'] },
+  { key: 'fast-furious', aliases: ['fast and furious', 'fast furious'] },
+  { key: 'matrix', aliases: ['the matrix', 'matrix'] },
+  { key: 'transformers', aliases: ['transformers', 'transformer'] },
+  { key: 'barbie', aliases: ['barbie'] },
+  { key: 'mickey', aliases: ['mickey'] },
+  { key: 'shrek', aliases: ['shrek'] },
+  { key: 'toy-story', aliases: ['toy story'] },
+  { key: 'cars', aliases: ['cars'] },
+  {
+    key: 'indiana-jones', aliases: ['indiana jones'],
+    order: ['arche perdue', 'temple maudit', 'derniere croisade', 'royaume du crane de cristal'],
+  },
+  { key: 'rocky', aliases: ['rocky'] },
+  { key: 'terminator', aliases: ['terminator'] },
+  { key: 'die-hard', aliases: ['die hard'] },
+  { key: 'jurassic', aliases: ['jurassic park', 'jurassic world'] },
+  { key: 'pirates-caraibes', aliases: ['pirates des caraibes'] },
+  { key: 'avengers', aliases: ['avengers'] },
+  { key: 'spider-man', aliases: ['spider man'] },
+  { key: 'batman', aliases: ['batman'] },
+  { key: 'x-men', aliases: ['x men'] },
+  { key: 'dragons', aliases: ['dragon', 'dragons'] },
+  { key: 'alien', aliases: ['alien', 'aliens'] },
+  { key: 'braquage', aliases: ['braquage'] },
+  { key: 'hotel-transylvania', aliases: ['hotel transylvania', 'hotel transylvanie'] },
+  { key: 'age-de-glace', aliases: ['age de glace'] },
+  {
+    key: 'clochette', aliases: ['clochette'],
+    order: ['la fee clochette', 'secret des fees', 'tournoi des fees', 'expedition feerique', 'et les pirates', 'creature legendaire'],
+  },
+  {
+    key: 'gendarme', aliases: ['gendarme'],
+    order: ['saint tropez', 'new york', 'se marie', 'en balade', 'extra terrestres', 'gendarmettes'],
+  },
+  {
+    key: 'percy-jackson', aliases: ['percy jackson'],
+    order: ['voleur de foudre', 'mer des monstres'],
+  },
+  { key: 'scooby-doo', aliases: ['scooby doo'] },
+  { key: 'goal', aliases: ['goal'] },
+].sort((a, b) => {
+  const maxA = Math.max(...a.aliases.map(x => x.length));
+  const maxB = Math.max(...b.aliases.map(x => x.length));
+  return maxB - maxA; // les alias les plus longs/spécifiques sont testés en premier
+});
+
+// Préfixes seuls (articles) qui ne doivent jamais servir de "nom de saga"
+// détecté automatiquement (ex: "Les 3 prochains jours", "Les 4 Fantastiques"
+// ne sont pas des suites — juste un titre qui commence par un article + chiffre).
+const ARTICLE_STOPWORDS = new Set(['le', 'la', 'les', 'l', 'un', 'une', 'des', 'de', 'du']);
 
 function matchesFranchiseAlias(normName, alias) {
   return (` ${normName} `).includes(` ${alias} `);
 }
 
+// clé de tri custom pour les sagas dont l'ordre chronologique ne colle pas
+// avec un tri alphabétique/numérique classique
+const FRANCHISE_ORDER = {};
+const FRANCHISE_ALIASES = {};
+FRANCHISES.forEach(f => {
+  if (f.order) FRANCHISE_ORDER[f.key] = f.order;
+  FRANCHISE_ALIASES[f.key] = f.aliases;
+});
+
+const LEADING_ARTICLE_RE = /^(le |la |les |l |un |une |des )/;
+
 function franchiseKey(name) {
   const cleaned = (name || '').replace(/\s*\(\d{4}\)\s*/g, ' ').trim();
   const normFull = normalizeKey(cleaned);
 
-  for (const alias of KNOWN_FRANCHISES) {
-    if (matchesFranchiseAlias(normFull, alias)) {
-      return alias;
+  for (const franchise of FRANCHISES) {
+    if (franchise.aliases.some(alias => matchesFranchiseAlias(normFull, alias))) {
+      return franchise.key;
     }
   }
 
   // ex: "Harry Potter 3 - et le Prisonnier d'Askaban" -> base "Harry Potter"
   const m = cleaned.match(/^(.*?)[\s:\-–]+\b(\d{1,2}|I{1,3}|IV|VI{0,3}|IX|X)\b/);
   if (m && m[1].trim().length >= 3) {
-    return normalizeKey(m[1]);
+    const prefixKey = normalizeKey(m[1]);
+    if (!ARTICLE_STOPWORDS.has(prefixKey)) {
+      return prefixKey;
+    }
   }
   // ex: "Le Seigneur des Anneaux - La Communauté de l'anneau" -> base "Le Seigneur des Anneaux"
   const dashIdx = cleaned.indexOf(' - ');
@@ -134,16 +202,75 @@ function franchiseKey(name) {
   return normFull;
 }
 
+function relatedSortValue(name, key) {
+  const norm = normalizeKey((name || '').replace(/\s*\(\d{4}\)\s*/g, ' ').trim());
+  const order = FRANCHISE_ORDER[key];
+  if (order) {
+    // On teste les fragments du plus spécifique (le plus long) au moins
+    // spécifique, pour éviter qu'un fragment générique (ex: le nom de base
+    // de la saga) ne "capture" à tort un titre plus précis qui le contient.
+    const candidates = order
+      .map((fragment, idx) => ({ fragment, idx }))
+      .filter(c => norm.includes(c.fragment))
+      .sort((a, b) => b.fragment.length - a.fragment.length);
+    return candidates.length ? candidates[0].idx : order.length;
+  }
+  return null; // pas d'ordre custom : on retombe sur le tri alpha/numérique par défaut
+}
+
+// Rang par défaut (sans ordre custom) : le film "de base" (celui qui
+// correspond exactement à l'alias de la saga, sans numéro) passe en
+// premier, puis les films numérotés dans l'ordre de leur numéro, puis les
+// éventuels titres sans numéro (souvent des spin-offs) en dernier — triés
+// entre eux par ordre alphabétique.
+function relatedAutoRank(name, key) {
+  const cleaned = (name || '').replace(/\s*\(\d{4}\)\s*/g, ' ').trim();
+  const norm = normalizeKey(cleaned);
+  const stripped = norm.replace(LEADING_ARTICLE_RE, '');
+  const numMatch = norm.match(/(\d{1,3})/);
+  if (numMatch) return parseInt(numMatch[1], 10);
+  const aliases = FRANCHISE_ALIASES[key] || [key];
+  const isBase = aliases.some(a => stripped === a || norm === a);
+  return isBase ? 0 : Infinity;
+}
+
 function getRelatedMovies(movie) {
   const key = franchiseKey(movie.name);
   if (!key) return [];
-  return ALL_MOVIES
-    .filter(m => m.id !== movie.id && franchiseKey(m.name) === key)
-    .sort((a, b) => a.name.localeCompare(b.name, 'fr', { numeric: true, sensitivity: 'base' }));
+  const related = ALL_MOVIES.filter(m => m.id !== movie.id && franchiseKey(m.name) === key);
+
+  const order = FRANCHISE_ORDER[key];
+  if (order) {
+    return related.sort((a, b) => {
+      const va = relatedSortValue(a.name, key);
+      const vb = relatedSortValue(b.name, key);
+      if (va !== vb) return va - vb;
+      return a.name.localeCompare(b.name, 'fr', { numeric: true, sensitivity: 'base' });
+    });
+  }
+
+  return related.sort((a, b) => {
+    const ra = relatedAutoRank(a.name, key);
+    const rb = relatedAutoRank(b.name, key);
+    if (ra !== rb) return ra - rb;
+    return a.name.localeCompare(b.name, 'fr', { numeric: true, sensitivity: 'base' });
+  });
 }
 
 function posterPlaceholder(name) {
   return `<span>${escapeHtml(name)}</span>`;
+}
+
+function platformBadgesHtml(platforms) {
+  return (platforms || []).map(p => `
+    <span class="movie-card__badge movie-card__badge--${PLATFORM_CLASS[p] || 'dvd'}">${escapeHtml(PLATFORM_LABELS[p] || p)}</span>
+  `).join('');
+}
+
+function platformTagsHtml(platforms) {
+  return (platforms || []).map(p => `
+    <span class="tag tag-${PLATFORM_CLASS[p] || 'dvd'}">${escapeHtml(PLATFORM_LABELS[p] || p)}</span>
+  `).join('');
 }
 
 function movieCardHtml(m) {
@@ -155,7 +282,7 @@ function movieCardHtml(m) {
     <div class="movie-card" data-id="${m.id}" tabindex="0" role="button" aria-label="Voir la fiche de ${escapeHtml(m.name)}">
       <div class="movie-card__poster">
         ${poster}
-        <span class="movie-card__badge ${m.platform === 'disque dur' ? 'movie-card__badge--diskdur' : 'movie-card__badge--dvd'}">${escapeHtml(m.platform === 'disque dur' ? 'Disque dur' : m.platform)}</span>
+        <div class="movie-card__badges">${platformBadgesHtml(m.platforms)}</div>
       </div>
       <div class="movie-card__body">
         <p class="movie-card__title">${escapeHtml(m.name)}</p>
@@ -282,7 +409,7 @@ function movieModalHtml(m) {
         <div class="modal__tags">
           ${m.type ? `<span class="tag tag-gold">${escapeHtml(m.type)}</span>` : ''}
           ${genres.map(g => `<span class="tag">${escapeHtml(g)}</span>`).join('')}
-          <span class="tag ${m.platform === 'disque dur' ? 'tag-diskdur' : 'tag-dvd'}">${escapeHtml(m.platform === 'disque dur' ? 'Disque dur' : m.platform)}</span>
+          ${platformTagsHtml(m.platforms)}
         </div>
         <div class="modal__info">
           <div><strong>Durée :</strong> ${escapeHtml(m.length || 'Non renseignée')}</div>

@@ -296,10 +296,17 @@ label {
 }
 .movie-card__poster img { width: 100%; height: 100%; object-fit: cover; }
 
-.movie-card__badge {
+.movie-card__badges {
   position: absolute;
   top: 8px;
   right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  max-width: calc(100% - 16px);
+}
+.movie-card__badge {
   background: rgba(18,16,20,0.85);
   border: 1px solid var(--gold-dim);
   color: var(--gold);
@@ -308,6 +315,7 @@ label {
   border-radius: 999px;
   font-family: var(--font-body);
   font-weight: 600;
+  white-space: nowrap;
 }
 .movie-card__badge--dvd {
   border-color: #3fae66;
@@ -316,6 +324,14 @@ label {
 .movie-card__badge--diskdur {
   border-color: var(--gold-dim);
   color: var(--gold);
+}
+.movie-card__badge--youtube {
+  border-color: #e05252;
+  color: #ff8383;
+}
+.movie-card__badge--primevideo {
+  border-color: #1f9fd8;
+  color: #6cd0ff;
 }
 .movie-card__watched {
   position: absolute;
@@ -441,6 +457,8 @@ label {
 .tag-velvet { border-color: var(--velvet-bright); color: var(--velvet-bright); }
 .tag-dvd { border-color: #3fae66; color: #5fd487; }
 .tag-diskdur { border-color: var(--gold-dim); color: var(--gold); }
+.tag-youtube { border-color: #e05252; color: #ff8383; }
+.tag-primevideo { border-color: #1f9fd8; color: #6cd0ff; }
 
 .modal__info {
   font-size: 13.5px;
