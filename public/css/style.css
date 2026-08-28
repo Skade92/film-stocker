@@ -217,6 +217,13 @@ img { max-width: 100%; display: block; }
 .btn-block { width: 100%; justify-content: center; }
 .btn[disabled] { opacity: .5; cursor: not-allowed; }
 
+.btn-trailer {
+  padding: 14px 28px;
+  font-size: 15.5px;
+  letter-spacing: 0.02em;
+}
+.modal__trailer-row { margin-top: 16px; }
+
 input, select, textarea {
   font-family: var(--font-body);
   background: var(--bg-raised);
@@ -255,8 +262,8 @@ label {
 /* ---------- Grille de films ---------- */
 .movie-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+  gap: 20px;
 }
 
 .movie-card {
@@ -326,17 +333,17 @@ label {
   font-weight: 700;
 }
 
-.movie-card__body { padding: 10px 12px 12px; }
+.movie-card__body { padding: 14px 16px 18px; }
 .movie-card__title {
   font-family: var(--font-display);
-  font-size: 14.5px;
+  font-size: 16.5px;
   letter-spacing: 0.01em;
-  line-height: 1.25;
-  margin: 0 0 4px;
+  line-height: 1.3;
+  margin: 0 0 6px;
   color: var(--text);
 }
 .movie-card__meta {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-dim);
 }
 
@@ -384,9 +391,9 @@ label {
   border-bottom: 1px solid var(--line);
 }
 .modal__poster {
-  width: 220px;
-  min-width: 220px;
-  aspect-ratio: 2/3;
+  width: 240px;
+  min-width: 240px;
+  max-height: 70vh;
   border-radius: 10px;
   overflow: hidden;
   background: linear-gradient(160deg, #2a2432, #171319);
@@ -399,7 +406,14 @@ label {
   text-align: center;
   padding: 12px;
 }
-.modal__poster img { width: 100%; height: 100%; object-fit: cover; }
+/* On veut l'affiche complète ici (pas de crop comme dans les vignettes) */
+.modal__poster img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  display: block;
+}
 
 .modal__title {
   font-family: var(--font-display);

@@ -18,12 +18,20 @@ async function loadAllMovies() {
   return MOVIES_LOADED;
 }
 
+function normalizeSearch(str) {
+  return (str || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
 function filterMovies({ search, type, genre, platform, sortBy = 'name', sortDir = 'asc' } = {}) {
+  const searchNorm = search ? normalizeSearch(search) : '';
   const filtered = ALL_MOVIES.filter(m => {
     if (platform && m.platform !== platform) return false;
     if (type && m.type !== type) return false;
     if (genre && !(m.genre || '').split(',').map(s => s.trim()).includes(genre)) return false;
-    if (search && !m.name.toLowerCase().includes(search.toLowerCase())) return false;
+    if (searchNorm && !normalizeSearch(m.name).includes(searchNorm)) return false;
     return true;
   });
 
@@ -55,8 +63,64 @@ function normalizeKey(str) {
     .trim();
 }
 
+// Sagas connues qui n'ont pas forcément de numéro ou de tiret dans le titre
+// (ex: "007 - Skyfall", "Fast & Furious 6", "Mission Impossible : Fallout"...).
+// Triée par longueur décroissante pour matcher l'alias le plus spécifique en premier.
+const KNOWN_FRANCHISES = [
+  'harry potter',
+  'le seigneur des anneaux',
+  'seigneur des anneaux',
+  'le hobbit',
+  'star wars',
+  'jason bourne',
+  'alvin et les chipmunks',
+  'asterix',
+  'baby boss',
+  'balto',
+  'transporter',
+  'james bond',
+  '007',
+  'mission impossible',
+  'jack reacher',
+  'fast and furious',
+  'fast furious',
+  'the matrix',
+  'matrix',
+  'transformers',
+  'transformer',
+  'barbie',
+  'mickey',
+  'shrek',
+  'toy story',
+  'cars',
+  'indiana jones',
+  'rocky',
+  'terminator',
+  'die hard',
+  'jurassic park',
+  'jurassic world',
+  'pirates des caraibes',
+  'avengers',
+  'spider man',
+  'batman',
+  'x men',
+  'dragons',
+].sort((a, b) => b.length - a.length);
+
+function matchesFranchiseAlias(normName, alias) {
+  return (` ${normName} `).includes(` ${alias} `);
+}
+
 function franchiseKey(name) {
   const cleaned = (name || '').replace(/\s*\(\d{4}\)\s*/g, ' ').trim();
+  const normFull = normalizeKey(cleaned);
+
+  for (const alias of KNOWN_FRANCHISES) {
+    if (matchesFranchiseAlias(normFull, alias)) {
+      return alias;
+    }
+  }
+
   // ex: "Harry Potter 3 - et le Prisonnier d'Askaban" -> base "Harry Potter"
   const m = cleaned.match(/^(.*?)[\s:\-–]+\b(\d{1,2}|I{1,3}|IV|VI{0,3}|IX|X)\b/);
   if (m && m[1].trim().length >= 3) {
@@ -67,7 +131,7 @@ function franchiseKey(name) {
   if (dashIdx > 2) {
     return normalizeKey(cleaned.slice(0, dashIdx));
   }
-  return normalizeKey(cleaned);
+  return normFull;
 }
 
 function getRelatedMovies(movie) {
@@ -222,7 +286,7 @@ function movieModalHtml(m) {
         </div>
         <div class="modal__info">
           <div><strong>Durée :</strong> ${escapeHtml(m.length || 'Non renseignée')}</div>
-          ${m.trailer_url ? `<div><a href="${escapeHtml(m.trailer_url)}" target="_blank" rel="noopener">▶ Voir la bande-annonce</a></div>` : ''}
+          ${m.trailer_url ? `<div class="modal__trailer-row"><a class="btn btn-gold btn-trailer" href="${escapeHtml(m.trailer_url)}" target="_blank" rel="noopener">▶ Voir la bande-annonce</a></div>` : ''}
         </div>
       </div>
     </div>
