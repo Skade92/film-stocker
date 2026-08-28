@@ -3,7 +3,7 @@
     "name": "10 000",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -16,7 +16,7 @@
     "name": "1001 Pattes",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -29,7 +29,7 @@
     "name": "13 à la Douzaine",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -42,7 +42,7 @@
     "name": "17 ans encore",
     "length": "1h42min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -55,7 +55,7 @@
     "name": "1976 - L'aile ou la cuisse",
     "length": "1h44min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur",
       "DVD"
@@ -69,7 +69,7 @@
     "name": "2012",
     "length": "2h38min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -82,7 +82,7 @@
     "name": "27 robes",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -95,7 +95,7 @@
     "name": "30 ans sinon rien",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -108,7 +108,7 @@
     "name": "42",
     "length": "2h08min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Biopic / Sport / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -121,7 +121,7 @@
     "name": "50 Nuances Plus Sombres",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -134,7 +134,7 @@
     "name": "7 vies",
     "length": "2h03min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Drame / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -147,7 +147,7 @@
     "name": "9 Millimètres",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -160,7 +160,7 @@
     "name": "À Bout Portant",
     "length": "1h24min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -173,7 +173,7 @@
     "name": "A la dérive",
     "length": "1h36min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -186,7 +186,7 @@
     "name": "A la rencontre de Forester",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Drame",
     "platforms": [
       "disque dur"
     ],
@@ -199,7 +199,7 @@
     "name": "A star is born",
     "length": "2h16min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -212,7 +212,7 @@
     "name": "Ad Astra",
     "length": "2h03min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Drame / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -225,7 +225,7 @@
     "name": "Agents Secrets",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -239,7 +239,7 @@
     "name": "Alex Rider - Stormbreaker",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -252,7 +252,7 @@
     "name": "Alexandre",
     "length": "2h55min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Biopic / Drame",
     "platforms": [
       "DVD"
     ],
@@ -265,7 +265,7 @@
     "name": "Alice au pays des merveilles",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -278,7 +278,7 @@
     "name": "Alien",
     "length": "1h57min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Horreur",
     "platforms": [
       "DVD"
     ],
@@ -291,7 +291,7 @@
     "name": "Aliens",
     "length": "2h17min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Horreur",
     "platforms": [
       "DVD"
     ],
@@ -304,7 +304,7 @@
     "name": "Alita Battle Angel",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -317,7 +317,7 @@
     "name": "Alpha et Omega",
     "length": "1h28min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -330,7 +330,7 @@
     "name": "Alvin et les chipmunks",
     "length": "1h32min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -343,7 +343,7 @@
     "name": "Alvin et les chipmunks 2",
     "length": "1h28min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -356,7 +356,7 @@
     "name": "Alvin et les chipmunks 3",
     "length": "1h27min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -369,7 +369,7 @@
     "name": "Alvin et les chipmunks 4",
     "length": "1h32min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -382,7 +382,7 @@
     "name": "Amanda",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -408,7 +408,7 @@
     "name": "American Gangster",
     "length": "2h37min",
     "type": "Film",
-    "genre": "Policier",
+    "genre": "Policier / Drame",
     "platforms": [
       "DVD"
     ],
@@ -421,7 +421,7 @@
     "name": "Anastasia",
     "length": "1h34min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -434,7 +434,7 @@
     "name": "Angles d'attaque",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -447,7 +447,7 @@
     "name": "Angry Birds",
     "length": "1h37min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -473,7 +473,7 @@
     "name": "Après Vous",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "DVD"
     ],
@@ -499,7 +499,7 @@
     "name": "Arrête moi si tu peux",
     "length": "2h21min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame / Biopic",
     "platforms": [
       "disque dur",
       "DVD"
@@ -513,7 +513,7 @@
     "name": "Arrietty",
     "length": "1h34min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -526,7 +526,7 @@
     "name": "Arsène Lupin, gentleman cambrioleur",
     "length": "2h11min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -539,7 +539,7 @@
     "name": "Arthur",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -552,7 +552,7 @@
     "name": "Asterix aux Jeux Olympiques",
     "length": "1h57min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -565,7 +565,7 @@
     "name": "Asterix Et Le Coup Du Menhir",
     "length": "1h22min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -578,7 +578,7 @@
     "name": "Asterix et le domaine des Dieux",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -591,7 +591,7 @@
     "name": "Asterix et les Vikings",
     "length": "1h18min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -604,7 +604,7 @@
     "name": "Astérix Et Obélix - Asterix Et La Surprise de César",
     "length": "1h19min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -617,7 +617,7 @@
     "name": "Asterix et Obelix - Mission Cleopatre",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -630,7 +630,7 @@
     "name": "Asterix et Obelix au service de sa majesté",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -643,7 +643,7 @@
     "name": "Astérix et Obélix, les 12 travaux d'Astérix",
     "length": "1h22min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -656,7 +656,7 @@
     "name": "Au Risque de te Perdre",
     "length": "2h",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "DVD"
     ],
@@ -683,7 +683,7 @@
     "name": "Avant toi",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -696,7 +696,7 @@
     "name": "Avatar",
     "length": "2h42min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Aventure",
     "platforms": [
       "disque dur",
       "DVD"
@@ -710,7 +710,7 @@
     "name": "Aviator",
     "length": "2h50min",
     "type": "Film",
-    "genre": "Biopic",
+    "genre": "Biopic / Drame / Histoire",
     "platforms": [
       "DVD"
     ],
@@ -723,7 +723,7 @@
     "name": "Babe",
     "length": "1h31min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -736,7 +736,7 @@
     "name": "Baby Boss",
     "length": "1h37min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -749,7 +749,7 @@
     "name": "Baby boss 2",
     "length": "1h47min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -762,7 +762,7 @@
     "name": "Backdraft",
     "length": "2h17min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Drame / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -775,7 +775,7 @@
     "name": "Balto",
     "length": "1h18min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -788,7 +788,7 @@
     "name": "Balto 2",
     "length": "1h13min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -801,7 +801,7 @@
     "name": "Balto 3",
     "length": "1h19min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -814,7 +814,7 @@
     "name": "Barbapapa - De fabuleuses barbaventures",
     "length": "2h05min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -827,7 +827,7 @@
     "name": "Barbie - Fairytopia",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -840,7 +840,7 @@
     "name": "Barbie - Le Secret Des Fées",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -853,7 +853,7 @@
     "name": "Barbie - Lilipucia",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -866,7 +866,7 @@
     "name": "Barbie - Merveilleux noel",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -879,7 +879,7 @@
     "name": "Barbie - Princesse De L'Ile Merveilleuse",
     "length": "1h22min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -892,7 +892,7 @@
     "name": "Barbie A fashion fairytale",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -905,7 +905,7 @@
     "name": "Barbie Au Bal Des 12 Princesses",
     "length": "1h22min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -918,7 +918,7 @@
     "name": "Barbie dans l'espace",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -931,7 +931,7 @@
     "name": "Barbie danseuse étoile",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -944,7 +944,7 @@
     "name": "Barbie Espion",
     "length": "1h19min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -957,7 +957,7 @@
     "name": "Barbie et le club hippique",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -970,7 +970,7 @@
     "name": "Barbie et le secret des Sirenes",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -983,7 +983,7 @@
     "name": "Barbie et le secret des sirenes 2",
     "length": "1h13min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -996,7 +996,7 @@
     "name": "Barbie et les chiots",
     "length": "1h19min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -1009,7 +1009,7 @@
     "name": "Barbie la princesse et la popstar",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -1022,7 +1022,7 @@
     "name": "Barbie princesse charm school 2011",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -1035,7 +1035,7 @@
     "name": "Belle Et Sebastien",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -1048,7 +1048,7 @@
     "name": "Ben-Hur",
     "length": "3h32min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Action / Drame / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -1061,7 +1061,7 @@
     "name": "Benjamin Gates et le trésor des Templiers",
     "length": "2h11min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -1074,7 +1074,7 @@
     "name": "Bernard et Bianca au pays des kangourous",
     "length": "1h17min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -1087,7 +1087,7 @@
     "name": "Bienvenue chez les Ch'tis",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -1100,7 +1100,7 @@
     "name": "Bienvenue chez les Chtis",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1113,7 +1113,7 @@
     "name": "Bienvenue chez les robinsons",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -1126,7 +1126,7 @@
     "name": "Billy Elliot",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Drame",
     "platforms": [
       "disque dur",
       "DVD"
@@ -1140,7 +1140,7 @@
     "name": "Blacklight",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -1153,7 +1153,7 @@
     "name": "Blanche-Neige",
     "length": "1h23min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -1166,7 +1166,7 @@
     "name": "Bling",
     "length": "1h22min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1179,7 +1179,7 @@
     "name": "Blood diamond",
     "length": "2h23min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Drame / Guerre / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -1192,7 +1192,7 @@
     "name": "Bohemian Rhapsody",
     "length": "2h14min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Biopic / Comédie musicale",
     "platforms": [
       "DVD"
     ],
@@ -1205,7 +1205,7 @@
     "name": "Braquage a l'anglaise",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1218,7 +1218,7 @@
     "name": "Braquage à l'Italien",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1231,7 +1231,7 @@
     "name": "Braveheart",
     "length": "2h58min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Action / Drame",
     "platforms": [
       "DVD"
     ],
@@ -1244,7 +1244,7 @@
     "name": "Brice de Nice",
     "length": "1h28min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -1257,7 +1257,7 @@
     "name": "Burlesque",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Comédie musicale / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -1270,7 +1270,7 @@
     "name": "Cadence",
     "length": "1h36min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Action",
     "platforms": [
       "DVD"
     ],
@@ -1283,7 +1283,7 @@
     "name": "Caillou",
     "length": "1h",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -1296,7 +1296,7 @@
     "name": "Camping",
     "length": "1h35min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -1322,7 +1322,7 @@
     "name": "Cars",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -1335,7 +1335,7 @@
     "name": "Casino Royale",
     "length": "2h24min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "disque dur",
       "DVD"
@@ -1349,7 +1349,7 @@
     "name": "Casper",
     "length": "1h40",
     "type": "Film",
-    "genre": "Fantastique / Comédie",
+    "genre": "Fantastique / Comédie / Enfantin",
     "platforms": [
       "DVD"
     ],
@@ -1375,7 +1375,7 @@
     "name": "Ce Que Pensent Les Hommes",
     "length": "2h07min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -1388,7 +1388,7 @@
     "name": "Cendrillon",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -1401,7 +1401,7 @@
     "name": "Center Stage Turn It Up",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Drame / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -1414,7 +1414,7 @@
     "name": "Chair de Poule",
     "length": "1h43min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -1427,7 +1427,7 @@
     "name": "Charlie et la chocolaterie",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -1441,7 +1441,7 @@
     "name": "Chérie, j'ai rétréci les gosses",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Science-Fiction / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1454,7 +1454,7 @@
     "name": "Cinquante Nuances de Grey",
     "length": "2h05min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -1467,7 +1467,7 @@
     "name": "Cinquante nuances plus claires",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -1480,7 +1480,7 @@
     "name": "Cliffhanger",
     "length": "1h53min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1493,7 +1493,7 @@
     "name": "Clochette et l'expédition féérique",
     "length": "1h16min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -1506,7 +1506,7 @@
     "name": "Coach Carter",
     "length": "2h16min",
     "type": "Film",
-    "genre": "Drame",
+    "genre": "Drame / Sport",
     "platforms": [
       "DVD"
     ],
@@ -1532,7 +1532,7 @@
     "name": "Cocktail",
     "length": "1h44min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance / Drame",
     "platforms": [
       "DVD"
     ],
@@ -1545,7 +1545,7 @@
     "name": "Coco",
     "length": "1h45min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1558,7 +1558,7 @@
     "name": "Code Mercury",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1571,7 +1571,7 @@
     "name": "Comme Cendrillon",
     "length": "1h35min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -1584,7 +1584,7 @@
     "name": "Coraline",
     "length": "1h40min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -1597,7 +1597,7 @@
     "name": "Coup de foudre à Notting Hill",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -1610,7 +1610,7 @@
     "name": "Couvre feu",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Action",
     "platforms": [
       "disque dur"
     ],
@@ -1623,7 +1623,7 @@
     "name": "Crocodile Dundee",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -1636,7 +1636,7 @@
     "name": "Cruella",
     "length": "2h14min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Comédie / Drame / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -1649,7 +1649,7 @@
     "name": "Da Vinci Code",
     "length": "2h29min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Policier / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -1662,7 +1662,7 @@
     "name": "Dans les Cordes",
     "length": "1h29min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Drame / Sport",
     "platforms": [
       "DVD"
     ],
@@ -1688,7 +1688,7 @@
     "name": "Deep Impact",
     "length": "2h01min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Drame",
     "platforms": [
       "DVD"
     ],
@@ -1701,7 +1701,7 @@
     "name": "Deja vu",
     "length": "2h06min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -1714,7 +1714,7 @@
     "name": "Démineurs",
     "length": "2h11min",
     "type": "Film",
-    "genre": "Guerre",
+    "genre": "Guerre / Drame / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1727,7 +1727,7 @@
     "name": "Des étoiles plein les yeux",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1740,7 +1740,7 @@
     "name": "Destination finale 1",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -1753,7 +1753,7 @@
     "name": "Destination finale 2",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -1766,7 +1766,7 @@
     "name": "Destination finale 3",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -1779,7 +1779,7 @@
     "name": "Deux en Un",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -1792,7 +1792,7 @@
     "name": "Deux Frères",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Drame",
     "platforms": [
       "DVD"
     ],
@@ -1805,7 +1805,7 @@
     "name": "Die Hard - Piège de Cristal",
     "length": "2h12min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1818,7 +1818,7 @@
     "name": "Die Hard 2",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -1831,7 +1831,7 @@
     "name": "Die Hard 2 - 58 Minutes pour Vivre",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1844,7 +1844,7 @@
     "name": "Die Hard 3 - Une Journée en Enfer",
     "length": "2h08min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1857,7 +1857,7 @@
     "name": "Die Hard 4 - Retour en Enfer",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -1870,7 +1870,7 @@
     "name": "Diego - A la rescousse du Jaguar",
     "length": "1h34min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1883,7 +1883,7 @@
     "name": "Diego - Au secours du gorfou macaroni",
     "length": "24min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1896,7 +1896,7 @@
     "name": "Diego - Au secours du petit kinkajou",
     "length": "26min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1909,7 +1909,7 @@
     "name": "Diego - Mission artique",
     "length": "52min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1922,7 +1922,7 @@
     "name": "Diner de cons",
     "length": "1h20min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -1935,7 +1935,7 @@
     "name": "Dirty Dancing",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Comédie musicale / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -1948,7 +1948,7 @@
     "name": "Divergente",
     "length": "2h19min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1961,7 +1961,7 @@
     "name": "Divergente 2 - L'Insurrection",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1974,7 +1974,7 @@
     "name": "Divergente 3",
     "length": "2h01min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -1987,7 +1987,7 @@
     "name": "Dommage Collatéral",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -2000,7 +2000,7 @@
     "name": "Dora",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2013,7 +2013,7 @@
     "name": "Dragon",
     "length": "1h38min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -2026,7 +2026,7 @@
     "name": "Dragon 2",
     "length": "1h42min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -2039,7 +2039,7 @@
     "name": "Dragon Noël",
     "length": "30min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2052,7 +2052,7 @@
     "name": "Dumb and Dumber",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -2065,7 +2065,7 @@
     "name": "Dune",
     "length": "2h35",
     "type": "Film",
-    "genre": "Science-Fiction / Aventure",
+    "genre": "Science-Fiction / Aventure / Drame",
     "platforms": [
       "YouTube"
     ],
@@ -2078,7 +2078,7 @@
     "name": "Dune 2",
     "length": "2h46",
     "type": "Film",
-    "genre": "Science-Fiction / Action",
+    "genre": "Science-Fiction / Action / Drame",
     "platforms": [
       "YouTube"
     ],
@@ -2091,7 +2091,7 @@
     "name": "E.T.",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Science-Fiction / Aventure",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2105,7 +2105,7 @@
     "name": "Eclipse",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "DVD"
     ],
@@ -2118,7 +2118,7 @@
     "name": "Eddie the Eagle",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Sport / Drame",
     "platforms": [
       "DVD"
     ],
@@ -2131,7 +2131,7 @@
     "name": "Effraction",
     "length": "1h31min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Action",
     "platforms": [
       "disque dur"
     ],
@@ -2144,7 +2144,7 @@
     "name": "Elle s'appelait Sarah",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Guerre",
     "platforms": [
       "disque dur"
     ],
@@ -2157,7 +2157,7 @@
     "name": "En pleine tempête",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Aventure / Drame",
     "platforms": [
       "DVD"
     ],
@@ -2170,7 +2170,7 @@
     "name": "En route",
     "length": "1h34min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie / Aventure / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -2183,7 +2183,7 @@
     "name": "En Territoire Ennemi",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Guerre / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -2196,7 +2196,7 @@
     "name": "Encanto",
     "length": "1h42min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2209,7 +2209,7 @@
     "name": "Ennemi d'état",
     "length": "2h12min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -2222,7 +2222,7 @@
     "name": "Epic",
     "length": "1h42min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2235,7 +2235,7 @@
     "name": "Excalibur l'épée magique",
     "length": "1h26min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2261,7 +2261,7 @@
     "name": "Fast & Furious",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2275,7 +2275,7 @@
     "name": "Fast & Furious 3 - Tokyo Drift",
     "length": "1h44min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2289,7 +2289,7 @@
     "name": "Fast & Furious 4",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2303,7 +2303,7 @@
     "name": "Fast & Furious 5",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2317,7 +2317,7 @@
     "name": "Fast & Furious 6",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2331,7 +2331,7 @@
     "name": "Fast & Furious 7",
     "length": "2h17min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2345,7 +2345,7 @@
     "name": "Fast & Furious 8",
     "length": "2h16min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2359,7 +2359,7 @@
     "name": "Fast and Furious 2",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -2373,7 +2373,7 @@
     "name": "Fast and Furious 9",
     "length": "2h23min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -2386,7 +2386,7 @@
     "name": "Five Feet Apart",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -2399,7 +2399,7 @@
     "name": "Forces Spéciales",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Guerre / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -2412,7 +2412,7 @@
     "name": "Forrest Gump",
     "length": "2h22min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame / Histoire / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -2425,7 +2425,7 @@
     "name": "Fous d'Irène",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "DVD"
     ],
@@ -2438,7 +2438,7 @@
     "name": "Franklin",
     "length": "1h20min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "DVD"
     ],
@@ -2451,7 +2451,7 @@
     "name": "Free guy",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Jeux Vidéo",
+    "genre": "Jeux Vidéo / Comédie / Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -2464,7 +2464,7 @@
     "name": "Fuchsia, l'apprentie sorcière",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2477,7 +2477,7 @@
     "name": "Geisha",
     "length": "2h25min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Romance",
     "platforms": [
       "DVD"
     ],
@@ -2490,7 +2490,7 @@
     "name": "Ghost in the shell",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -2503,7 +2503,7 @@
     "name": "Ghost In The Shell 2",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -2516,7 +2516,7 @@
     "name": "Ghostbusters 3",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Fantastique / Action",
     "platforms": [
       "disque dur"
     ],
@@ -2529,7 +2529,7 @@
     "name": "Gigi",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -2542,7 +2542,7 @@
     "name": "Gladiator",
     "length": "2h35min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Histoire / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -2555,7 +2555,7 @@
     "name": "Goal II",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Sport / Drame",
     "platforms": [
       "DVD"
     ],
@@ -2568,7 +2568,7 @@
     "name": "Golden Eyes",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2581,7 +2581,7 @@
     "name": "Gran Turismo",
     "length": "2h14",
     "type": "Film",
-    "genre": "Action / Sport",
+    "genre": "Action / Sport / Drame",
     "platforms": [
       "YouTube"
     ],
@@ -2594,7 +2594,7 @@
     "name": "Grease",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Comédie musicale",
+    "genre": "Comédie musicale / Comédie / Romance",
     "platforms": [
       "DVD"
     ],
@@ -2607,7 +2607,7 @@
     "name": "Gruffalo",
     "length": "0h27min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2620,7 +2620,7 @@
     "name": "Hancock",
     "length": "1h32min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2633,7 +2633,7 @@
     "name": "Harry Potter 1 - à l'École des sorciers",
     "length": "2h32min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2646,7 +2646,7 @@
     "name": "Harry Potter 2 - et la Chambre des Secrets",
     "length": "2h41min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2659,7 +2659,7 @@
     "name": "Harry Potter 3 - et le Prisonnier d'Askaban",
     "length": "2h22min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2672,7 +2672,7 @@
     "name": "Harry Potter 4 - et la Coupe de Feu",
     "length": "2h37min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2685,7 +2685,7 @@
     "name": "Harry Potter 5 - et l'ordre du phoenix",
     "length": "2h33min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2698,7 +2698,7 @@
     "name": "Harry Potter 6 - et le Prince de sang mêlé",
     "length": "2h33min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2711,7 +2711,7 @@
     "name": "Harry Potter 7 - et les Reliques de la Mort 1",
     "length": "2h26min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2724,7 +2724,7 @@
     "name": "Harry Potter 7 - et les Reliques de la Mort 2",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -2737,7 +2737,7 @@
     "name": "Hatchi",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -2750,7 +2750,7 @@
     "name": "Haute Sécurité",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -2763,7 +2763,7 @@
     "name": "Haute Voltige",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Romance",
     "platforms": [
       "DVD"
     ],
@@ -2776,7 +2776,7 @@
     "name": "Hitman",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -2789,7 +2789,7 @@
     "name": "Home team",
     "length": "1h36min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Sport",
     "platforms": [
       "disque dur"
     ],
@@ -2802,7 +2802,7 @@
     "name": "Hook",
     "length": "2h22min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2815,7 +2815,7 @@
     "name": "Hop",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2828,7 +2828,7 @@
     "name": "Hotel Transylvania",
     "length": "1h31min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2841,7 +2841,7 @@
     "name": "Hotel Transylvanie 2",
     "length": "1h29min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -2854,7 +2854,7 @@
     "name": "Hunger Games",
     "length": "2h22min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Aventure / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -2867,7 +2867,7 @@
     "name": "I, Robot",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -2880,7 +2880,7 @@
     "name": "Identité Secrète",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -2893,7 +2893,7 @@
     "name": "Inception",
     "length": "2h28",
     "type": "Film",
-    "genre": "Science-Fiction / Action",
+    "genre": "Science-Fiction / Action / Thriller",
     "platforms": [
       "YouTube"
     ],
@@ -2906,7 +2906,7 @@
     "name": "Incontrôlable",
     "length": "1h28min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -2919,7 +2919,7 @@
     "name": "Indiana Jones et l'arche perdue",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2932,7 +2932,7 @@
     "name": "Indiana Jones et la dernière croisade",
     "length": "2h07min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2945,7 +2945,7 @@
     "name": "Indiana Jones et le royaume du crâne de cristal",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2958,7 +2958,7 @@
     "name": "Indiana Jones et le temple maudit",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -2971,7 +2971,7 @@
     "name": "Intelligence Artificielle",
     "length": "2h26min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Drame / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -2984,7 +2984,7 @@
     "name": "Interstellar",
     "length": "2h49",
     "type": "Film",
-    "genre": "Science-Fiction / Drame",
+    "genre": "Science-Fiction / Drame / Aventure",
     "platforms": [
       "YouTube"
     ],
@@ -2997,7 +2997,7 @@
     "name": "Intouchables",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "DVD"
     ],
@@ -3010,7 +3010,7 @@
     "name": "Jack Reacher",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -3023,7 +3023,7 @@
     "name": "Jack Reacher 2",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -3036,7 +3036,7 @@
     "name": "Jackie Chan à Hong Kong",
     "length": "1h28min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie",
     "platforms": [
       "DVD"
     ],
@@ -3049,7 +3049,7 @@
     "name": "James Bond - Demain ne meurt jamais",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -3062,7 +3062,7 @@
     "name": "Jappeloup",
     "length": "2h11min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Sport / Drame / Biopic",
     "platforms": [
       "DVD"
     ],
@@ -3075,7 +3075,7 @@
     "name": "Je suis une légende",
     "length": "1h41min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -3088,7 +3088,7 @@
     "name": "Jeanne d'Arc",
     "length": "2h38min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Drame / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -3101,7 +3101,7 @@
     "name": "Jeanne et Serge",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3114,7 +3114,7 @@
     "name": "Jeux d'enfants",
     "length": "1h35min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3127,7 +3127,7 @@
     "name": "Jumanji",
     "length": "1h44min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Fantastique / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3140,7 +3140,7 @@
     "name": "Jumanji 2",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Fantastique / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3153,7 +3153,7 @@
     "name": "Jumper",
     "length": "1h28min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -3166,7 +3166,7 @@
     "name": "Jungle Cruise",
     "length": "2h07min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Fantastique / Comédie / Action",
     "platforms": [
       "disque dur"
     ],
@@ -3179,7 +3179,7 @@
     "name": "Jurassic Park",
     "length": "2h07min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Science-Fiction",
     "platforms": [
       "disque dur",
       "DVD"
@@ -3193,7 +3193,7 @@
     "name": "Jurassic World",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -3206,7 +3206,7 @@
     "name": "Justin",
     "length": "1h33min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -3219,7 +3219,7 @@
     "name": "Karate Kid",
     "length": "2h20min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Sport / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -3232,7 +3232,7 @@
     "name": "King Kong",
     "length": "3h07min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique",
     "platforms": [
       "DVD"
     ],
@@ -3258,7 +3258,7 @@
     "name": "Kung Fu Panda",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3271,7 +3271,7 @@
     "name": "L'âge de glace",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3284,7 +3284,7 @@
     "name": "L'Âge de glace 4 : La dérive des continents",
     "length": "1h28",
     "type": "Film",
-    "genre": "Animation / Aventure",
+    "genre": "Animation / Aventure / Comédie / Enfantin",
     "platforms": [
       "YouTube"
     ],
@@ -3297,7 +3297,7 @@
     "name": "L'âge de glace et la chasse aux oeufs",
     "length": "1h13min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3323,7 +3323,7 @@
     "name": "L'arme fatale",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Comédie / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -3336,7 +3336,7 @@
     "name": "L'Arme Fatale 2",
     "length": "1h54min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Comédie / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -3349,7 +3349,7 @@
     "name": "L'art de la guerre",
     "length": "1h57min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -3362,7 +3362,7 @@
     "name": "L'Associé du diable",
     "length": "2h24min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Fantastique / Drame",
     "platforms": [
       "DVD"
     ],
@@ -3375,7 +3375,7 @@
     "name": "L'Échange",
     "length": "2h21min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame / Histoire",
     "platforms": [
       "DVD"
     ],
@@ -3388,7 +3388,7 @@
     "name": "L'effet papillon",
     "length": "1h53min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Science-Fiction / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -3401,7 +3401,7 @@
     "name": "L'Effrontée",
     "length": "1h35min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "DVD"
     ],
@@ -3414,7 +3414,7 @@
     "name": "L'étudiante et Monsieur Henri",
     "length": "1h36min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -3427,7 +3427,7 @@
     "name": "L'histoire sans fin",
     "length": "1h34min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3440,7 +3440,7 @@
     "name": "L'histoire sans fin 2",
     "length": "1h29min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3453,7 +3453,7 @@
     "name": "L'histoire sans fin 3",
     "length": "1h31min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3466,7 +3466,7 @@
     "name": "L'ours montagne",
     "length": "1h15min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -3479,7 +3479,7 @@
     "name": "La 5ème Vague",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Science-Fiction / Action",
     "platforms": [
       "DVD"
     ],
@@ -3492,7 +3492,7 @@
     "name": "La belle au bois dormant",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -3505,7 +3505,7 @@
     "name": "La Belle et la Bête 2",
     "length": "1h11min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Romance / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -3518,7 +3518,7 @@
     "name": "La Belle et la Bête 2017",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -3531,7 +3531,7 @@
     "name": "La Boum",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Comédie / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -3544,7 +3544,7 @@
     "name": "La Boum 2",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Comédie / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -3557,7 +3557,7 @@
     "name": "La Ch'tite Famille",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -3570,7 +3570,7 @@
     "name": "La chute du faucon noir",
     "length": "2h24min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Guerre / Drame / Histoire",
     "platforms": [
       "disque dur"
     ],
@@ -3583,7 +3583,7 @@
     "name": "La cité de Dieu",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Drame / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -3596,7 +3596,7 @@
     "name": "La cité des anges",
     "length": "1h54min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -3609,7 +3609,7 @@
     "name": "La Cité Des Enfants Perdus",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -3622,7 +3622,7 @@
     "name": "La Coccinelle Revient",
     "length": "1h41min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Comédie / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -3635,7 +3635,7 @@
     "name": "La doublure",
     "length": "1h25min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3648,7 +3648,7 @@
     "name": "La famille Noël",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -3661,7 +3661,7 @@
     "name": "la fee clochette",
     "length": "1h18min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3674,7 +3674,7 @@
     "name": "La fée Clochette et la créature légendaire",
     "length": "1h16min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3687,7 +3687,7 @@
     "name": "La fée Clochette et le secret des fées",
     "length": "1h16min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3700,7 +3700,7 @@
     "name": "La fée clochette et le Tournoi des Fées",
     "length": "1h16min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3713,7 +3713,7 @@
     "name": "La fée clochette et les pirates",
     "length": "1h16min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3726,7 +3726,7 @@
     "name": "La Foret Enchantée",
     "length": "1h22min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3739,7 +3739,7 @@
     "name": "La Guerre des Mondes",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -3752,7 +3752,7 @@
     "name": "La Guerre des Roses",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "DVD"
     ],
@@ -3765,7 +3765,7 @@
     "name": "La Légende de Despereaux",
     "length": "1h34min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -3778,7 +3778,7 @@
     "name": "La légende de Zorro",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Romance",
     "platforms": [
       "disque dur",
       "DVD"
@@ -3792,7 +3792,7 @@
     "name": "La ligne Rouge",
     "length": "2h50min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Drame",
     "platforms": [
       "disque dur",
       "DVD"
@@ -3806,7 +3806,7 @@
     "name": "La Ligne Verte",
     "length": "3h09min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame / Fantastique",
     "platforms": [
       "DVD"
     ],
@@ -3819,7 +3819,7 @@
     "name": "La maison de Mickey",
     "length": null,
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -3832,7 +3832,7 @@
     "name": "La maison de mickey - Daisy perd ses moutons",
     "length": "23min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -3845,7 +3845,7 @@
     "name": "La maison de Mickey le pays des merveilles",
     "length": "48min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -3858,7 +3858,7 @@
     "name": "La maison du bonheur",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3871,7 +3871,7 @@
     "name": "La mémoire dans la peau",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -3885,7 +3885,7 @@
     "name": "La mission de chien Noël",
     "length": "1h36min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -3898,7 +3898,7 @@
     "name": "La Môme",
     "length": "2h20min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Biopic / Drame",
     "platforms": [
       "DVD"
     ],
@@ -3911,7 +3911,7 @@
     "name": "La Mort dans la Peau",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -3925,7 +3925,7 @@
     "name": "La Petite Sirene 2",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -3938,7 +3938,7 @@
     "name": "La petite sorcière Kiki",
     "length": "1h43min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -3951,7 +3951,7 @@
     "name": "La planète aux 20 trésors",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -3964,7 +3964,7 @@
     "name": "La Princesse Au Petit Pois",
     "length": "1h21min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -3977,7 +3977,7 @@
     "name": "La princesse et le poney",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -3990,7 +3990,7 @@
     "name": "La Proposition",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -4003,7 +4003,7 @@
     "name": "La Rafle",
     "length": "2h05min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Drame",
     "platforms": [
       "DVD"
     ],
@@ -4016,7 +4016,7 @@
     "name": "La Recrue",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4030,7 +4030,7 @@
     "name": "La Reine des neiges",
     "length": "1h42min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale / Aventure",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4044,7 +4044,7 @@
     "name": "La reine des neiges 2",
     "length": "1h43min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4057,7 +4057,7 @@
     "name": "La Soupe aux Choux",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -4070,7 +4070,7 @@
     "name": "La vengeance dans la peau",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4084,7 +4084,7 @@
     "name": "La véritable histoire du chat botté",
     "length": "1h22min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4097,7 +4097,7 @@
     "name": "La Vie de David Gale",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame",
     "platforms": [
       "DVD"
     ],
@@ -4110,7 +4110,7 @@
     "name": "La Vie est Belle",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Comédie / Drame / Guerre",
     "platforms": [
       "DVD"
     ],
@@ -4123,7 +4123,7 @@
     "name": "La vie est un long fleuve tranquille",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -4136,7 +4136,7 @@
     "name": "Labyrinthe",
     "length": "1h41min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4149,7 +4149,7 @@
     "name": "Lafesse dans l'Camion",
     "length": "45min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -4162,7 +4162,7 @@
     "name": "Lame de fond",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -4175,7 +4175,7 @@
     "name": "Largo Winch",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -4188,7 +4188,7 @@
     "name": "Le Bonheur est dans le pré",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -4201,7 +4201,7 @@
     "name": "Le boss",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -4214,7 +4214,7 @@
     "name": "Le bunker",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -4227,7 +4227,7 @@
     "name": "Le chasseur et la reine de glace",
     "length": "1h54min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -4240,7 +4240,7 @@
     "name": "Le chat potté",
     "length": "1h30min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -4253,7 +4253,7 @@
     "name": "Le Chateau dans le ciel",
     "length": "2h09min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4266,7 +4266,7 @@
     "name": "Le Coeur Des Hommes",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame / Romance",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4280,7 +4280,7 @@
     "name": "Le contrat",
     "length": "1H47min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -4293,7 +4293,7 @@
     "name": "Le dernier des Mohicans",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Aventure / Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -4319,7 +4319,7 @@
     "name": "Le Dernier Samouraï",
     "length": "2h34min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Histoire / Drame / Guerre",
     "platforms": [
       "disque dur"
     ],
@@ -4332,7 +4332,7 @@
     "name": "Le Diable s'habille en Prada",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4346,7 +4346,7 @@
     "name": "Le discours d'un roi",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -4359,7 +4359,7 @@
     "name": "Le Drôle de Noël de Scrooge",
     "length": "1h36min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -4372,7 +4372,7 @@
     "name": "Le Fabuleux Destin d'Amélie Poulain",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance / Fantastique",
     "platforms": [
       "DVD"
     ],
@@ -4385,7 +4385,7 @@
     "name": "Le garçon et la bête",
     "length": "1h59min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4398,7 +4398,7 @@
     "name": "Le Gendarme à New York",
     "length": "1h42min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -4411,7 +4411,7 @@
     "name": "Le Gendarme et les Extra-Terrestres",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -4424,7 +4424,7 @@
     "name": "Le Gendarme et les Gendarmettes",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -4437,7 +4437,7 @@
     "name": "Le Gendarme se Marie",
     "length": "1h25min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -4450,7 +4450,7 @@
     "name": "Le Jour d'Après",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Drame",
     "platforms": [
       "DVD"
     ],
@@ -4463,7 +4463,7 @@
     "name": "Le livre de la jungle",
     "length": "1h18min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4476,7 +4476,7 @@
     "name": "Le livre de la jungle - le film",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4489,7 +4489,7 @@
     "name": "Le Livre de la jungle 2",
     "length": "1h12min",
     "type": "Film",
-    "genre": "Animation",
+    "genre": "Animation / Aventure / Comédie / Enfantin",
     "platforms": [
       "DVD"
     ],
@@ -4502,7 +4502,7 @@
     "name": "Le magicien d'Oz",
     "length": "1h42min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Comédie musicale",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4516,7 +4516,7 @@
     "name": "Le Majordome",
     "length": "2h12min",
     "type": "Film",
-    "genre": "thriller",
+    "genre": "Thriller / Histoire / Drame / Biopic",
     "platforms": [
       "DVD"
     ],
@@ -4529,7 +4529,7 @@
     "name": "Le manoir magique",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4542,7 +4542,7 @@
     "name": "Le monde de Narnia - Ch1",
     "length": "2h23min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4556,7 +4556,7 @@
     "name": "Le monde de Narnia - Ch2",
     "length": "2h30min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4570,7 +4570,7 @@
     "name": "Le monde de Narnia - Ch3",
     "length": "1h53min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4584,7 +4584,7 @@
     "name": "Le monde de Nemo",
     "length": "1h40min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4597,7 +4597,7 @@
     "name": "Le monde secret des emojis",
     "length": "1h26min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4610,7 +4610,7 @@
     "name": "Le Parc des Merveilles",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4623,7 +4623,7 @@
     "name": "Le Patient Anglais",
     "length": "2h42min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Guerre / Histoire",
     "platforms": [
       "DVD"
     ],
@@ -4636,7 +4636,7 @@
     "name": "Le Petit Prince",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Drame / Enfantin",
     "platforms": [
       "DVD"
     ],
@@ -4649,7 +4649,7 @@
     "name": "Le Pic de Dante",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Drame",
     "platforms": [
       "DVD"
     ],
@@ -4662,7 +4662,7 @@
     "name": "Le Prince d'Egypte",
     "length": "1h39min",
     "type": "Dessin Animé",
-    "genre": "Histoire",
+    "genre": "Histoire / Animation / Comédie musicale / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -4688,7 +4688,7 @@
     "name": "Le Roi lion 2",
     "length": "1h21min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie musicale / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4701,7 +4701,7 @@
     "name": "Le Roi Lion 3",
     "length": "1h17min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie musicale / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4714,7 +4714,7 @@
     "name": "Le Royaume de Ga'Hoole",
     "length": "1h37min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -4727,7 +4727,7 @@
     "name": "Le Royaume du Crâne de Cristal",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique",
     "platforms": [
       "DVD"
     ],
@@ -4740,7 +4740,7 @@
     "name": "Le Secret de Charlie",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -4753,7 +4753,7 @@
     "name": "Le Seigneur des Anneaux - La Communauté de l'anneau",
     "length": "2h58min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Action",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4767,7 +4767,7 @@
     "name": "Le Seigneur des Anneaux - Le Retour du Roi",
     "length": "3h21min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -4780,7 +4780,7 @@
     "name": "Le Seigneur des Anneaux - Les Deux Tours",
     "length": "2h59min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Action",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4794,7 +4794,7 @@
     "name": "Le temps d'un automne",
     "length": "1h42min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -4807,7 +4807,7 @@
     "name": "Le Transporteur",
     "length": "1h32min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -4820,7 +4820,7 @@
     "name": "Le Voyage extraordinaire de Samy",
     "length": "1h28min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4833,7 +4833,7 @@
     "name": "Les 101 dalmatiens",
     "length": "1h43min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4846,7 +4846,7 @@
     "name": "Les 3 prochains jours",
     "length": "2h13min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame / Action",
     "platforms": [
       "disque dur"
     ],
@@ -4859,7 +4859,7 @@
     "name": "Les 4 Fantastiques",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -4872,7 +4872,7 @@
     "name": "Les aristochats",
     "length": "1h18min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie musicale",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4886,7 +4886,7 @@
     "name": "Les Autres",
     "length": "1h44min",
     "type": "Film",
-    "genre": "Horreur",
+    "genre": "Horreur / Fantastique / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -4899,7 +4899,7 @@
     "name": "Les aventures de Bernard et Bianca",
     "length": "1h17min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4912,7 +4912,7 @@
     "name": "Les Chevaliers Du Ciel",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4925,7 +4925,7 @@
     "name": "Les chimpanzés dans l'espace",
     "length": "1h21min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Science-Fiction / Comédie",
     "platforms": [
       "disque dur",
       "DVD"
@@ -4939,7 +4939,7 @@
     "name": "Les Choristes",
     "length": "1h35min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -4952,7 +4952,7 @@
     "name": "Les cinq légendes",
     "length": "1h37min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -4965,7 +4965,7 @@
     "name": "Les Contes de la nuit",
     "length": "1h24min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -4978,7 +4978,7 @@
     "name": "Les Contes De Terremer",
     "length": "1h55min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -4991,7 +4991,7 @@
     "name": "Les Croods",
     "length": "1h38min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5005,7 +5005,7 @@
     "name": "Les enfants de Timpelbach",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -5018,7 +5018,7 @@
     "name": "Les enfants loups",
     "length": "1h57min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -5031,7 +5031,7 @@
     "name": "Les Fautes d'Orthographe",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -5044,7 +5044,7 @@
     "name": "Les figures de l'ombre",
     "length": "2h07min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -5057,7 +5057,7 @@
     "name": "Les indestructibles",
     "length": "1h55min",
     "type": "Dessin Animé",
-    "genre": "Action",
+    "genre": "Action / Animation / Comédie / Aventure / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -5070,7 +5070,7 @@
     "name": "Les Indestructibles 2",
     "length": "1h58min",
     "type": "Dessin Animé",
-    "genre": "Action",
+    "genre": "Action / Animation / Comédie / Aventure / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -5083,7 +5083,7 @@
     "name": "Les Larmes du Soleil",
     "length": "2h01min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Guerre / Drame",
     "platforms": [
       "DVD"
     ],
@@ -5096,7 +5096,7 @@
     "name": "Les Minions",
     "length": "1h31min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5109,7 +5109,7 @@
     "name": "Les Minipouss",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5122,7 +5122,7 @@
     "name": "Les mondes de Ralph",
     "length": "1h41min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin / Jeux Vidéo",
     "platforms": [
       "disque dur"
     ],
@@ -5135,7 +5135,7 @@
     "name": "Les mystérieuses cités d'or",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -5148,7 +5148,7 @@
     "name": "Les quatre filles du Docteur March",
     "length": "2h15min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -5161,7 +5161,7 @@
     "name": "Les vacances du petit Nicolas",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -5174,7 +5174,7 @@
     "name": "Les Visiteurs",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Fantastique",
     "platforms": [
       "DVD"
     ],
@@ -5187,7 +5187,7 @@
     "name": "Limitless",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -5200,7 +5200,7 @@
     "name": "Lion",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -5213,7 +5213,7 @@
     "name": "Lucile, amour et rock and roll",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Amour",
+    "genre": "Romance",
     "platforms": [
       "disque dur"
     ],
@@ -5226,7 +5226,7 @@
     "name": "Madagascar",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5239,7 +5239,7 @@
     "name": "Madagascar 3",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Aventure / Enfantin",
     "platforms": [
       "DVD"
     ],
@@ -5252,7 +5252,7 @@
     "name": "Madame Doubtfire",
     "length": "2h05min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5266,7 +5266,7 @@
     "name": "Maléfique",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Action / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5279,7 +5279,7 @@
     "name": "Maman j'ai raté l'avion",
     "length": "1h43min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -5292,7 +5292,7 @@
     "name": "Mamma Mia",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Comédie musicale / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -5305,7 +5305,7 @@
     "name": "Mariage par correspondance",
     "length": "5h48min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -5318,7 +5318,7 @@
     "name": "MARVEL",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Action",
+    "genre": "Action / Aventure / Science-Fiction / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -5331,7 +5331,7 @@
     "name": "Mary Poppins",
     "length": "2h19min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Comédie musicale / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5345,7 +5345,7 @@
     "name": "Matrix",
     "length": "2h16min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5359,7 +5359,7 @@
     "name": "Matrix Reloaded",
     "length": "2h18min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5373,7 +5373,7 @@
     "name": "Matrix Revolutions",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5387,7 +5387,7 @@
     "name": "Men in Black II",
     "length": "1h28min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -5400,7 +5400,7 @@
     "name": "Mensonges d'État",
     "length": "2h08min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "DVD"
     ],
@@ -5413,7 +5413,7 @@
     "name": "Merlin L'enchanteur",
     "length": "1h19min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Enfantin / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -5426,7 +5426,7 @@
     "name": "Mickey de cristal",
     "length": "23min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5439,7 +5439,7 @@
     "name": "Mickey et dingo le chevalier",
     "length": "7min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5452,7 +5452,7 @@
     "name": "Mickey et le singe de dingo",
     "length": "22min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5465,7 +5465,7 @@
     "name": "Mickey et les 3 mousquetaires",
     "length": "1h08min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5478,7 +5478,7 @@
     "name": "Mickey et les méchants",
     "length": "1h08min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5491,7 +5491,7 @@
     "name": "Mickey il était une fois Noël",
     "length": "1h06min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5504,7 +5504,7 @@
     "name": "Mickey sauve le Père Noël",
     "length": "23min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5517,7 +5517,7 @@
     "name": "Minority Report",
     "length": "2h25min",
     "type": "Film",
-    "genre": "Science-Fiction",
+    "genre": "Science-Fiction / Thriller / Action",
     "platforms": [
       "DVD"
     ],
@@ -5530,7 +5530,7 @@
     "name": "Mission Impossible - Ghost Protocol",
     "length": "2h13min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -5543,7 +5543,7 @@
     "name": "Mission Impossible - Rogue Nation",
     "length": "2h11min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -5556,7 +5556,7 @@
     "name": "Mission Impossible 1",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5569,7 +5569,7 @@
     "name": "Mission Impossible 2",
     "length": "2h03min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -5582,7 +5582,7 @@
     "name": "Mission Impossible 3",
     "length": "2h06min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -5595,7 +5595,7 @@
     "name": "Moi moche et méchant",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -5608,7 +5608,7 @@
     "name": "Money Train",
     "length": "1h43min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -5621,7 +5621,7 @@
     "name": "Monsieur Popper et ses Pingouins",
     "length": "1h34min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Enfantin",
     "platforms": [
       "DVD"
     ],
@@ -5634,7 +5634,7 @@
     "name": "Monster House",
     "length": "1h31min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Horreur",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5648,7 +5648,7 @@
     "name": "Monstre Academy",
     "length": "1h44min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -5661,7 +5661,7 @@
     "name": "Monstre and Cie",
     "length": "1h32min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -5674,7 +5674,7 @@
     "name": "Morning Glory",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -5687,7 +5687,7 @@
     "name": "Mulan",
     "length": "1h28min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie musicale / Guerre",
     "platforms": [
       "disque dur"
     ],
@@ -5700,7 +5700,7 @@
     "name": "Mulan 2",
     "length": "1h19min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -5713,7 +5713,7 @@
     "name": "Mune le gardien de la lune",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -5726,7 +5726,7 @@
     "name": "Nanny McPhee",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -5739,7 +5739,7 @@
     "name": "Nanny McPhee 2",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -5752,7 +5752,7 @@
     "name": "Narco",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -5765,7 +5765,7 @@
     "name": "Ne le dis à personne",
     "length": "2h06min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Policier / Drame",
     "platforms": [
       "DVD"
     ],
@@ -5791,7 +5791,7 @@
     "name": "Norman",
     "length": "1h33min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -5804,7 +5804,7 @@
     "name": "Number 4",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5817,7 +5817,7 @@
     "name": "Ocean 8",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -5830,7 +5830,7 @@
     "name": "Ocean's Twelve",
     "length": "2h05min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Comédie",
     "platforms": [
       "DVD"
     ],
@@ -5843,7 +5843,7 @@
     "name": "Once Upon a Time in Hollywood",
     "length": "2h41min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Comédie / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -5856,7 +5856,7 @@
     "name": "One Piece - Le Film",
     "length": "0h55min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -5869,7 +5869,7 @@
     "name": "One Piece 2 - L'aventure de l'île de l'horloge",
     "length": "1h00min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -5882,7 +5882,7 @@
     "name": "Opération Casse-Noisette",
     "length": "1h50min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -5895,7 +5895,7 @@
     "name": "Otage",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -5908,7 +5908,7 @@
     "name": "Oui-Oui et le gâteau d'anniversaire géant",
     "length": "1h06min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -5921,7 +5921,7 @@
     "name": "Out of Africa",
     "length": "2h41min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Histoire",
     "platforms": [
       "DVD"
     ],
@@ -5934,7 +5934,7 @@
     "name": "Out of Time",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Action",
     "platforms": [
       "DVD"
     ],
@@ -5947,7 +5947,7 @@
     "name": "Paddington",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -5960,7 +5960,7 @@
     "name": "Pan",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur",
       "DVD"
@@ -5987,7 +5987,7 @@
     "name": "Peaceful Warrior",
     "length": "2h00min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Drame / Sport",
     "platforms": [
       "disque dur"
     ],
@@ -6000,7 +6000,7 @@
     "name": "Percy Jackson et la mer des monstres",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -6013,7 +6013,7 @@
     "name": "Percy Jackson et le voleur de foudre",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -6026,7 +6026,7 @@
     "name": "Peter Pan",
     "length": "1h17min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6039,7 +6039,7 @@
     "name": "Picsou",
     "length": "1h14min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6052,7 +6052,7 @@
     "name": "Piège en Eaux Troubles",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Horreur",
     "platforms": [
       "DVD"
     ],
@@ -6065,7 +6065,7 @@
     "name": "Pirates des Caraïbes",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6078,7 +6078,7 @@
     "name": "Pirates des Caraïbes - La Vengeance de Salazar",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Fantastique / Comédie",
     "platforms": [
       "DVD"
     ],
@@ -6091,7 +6091,7 @@
     "name": "Planes",
     "length": "1h32min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6104,7 +6104,7 @@
     "name": "Planet 51",
     "length": "1h31min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Science-Fiction / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6117,7 +6117,7 @@
     "name": "Pluie d'Enfer",
     "length": "2h18min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6130,7 +6130,7 @@
     "name": "Point Break",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6143,7 +6143,7 @@
     "name": "Poucelina",
     "length": "1h26min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -6156,7 +6156,7 @@
     "name": "Pour Cible",
     "length": "1h33min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6169,7 +6169,7 @@
     "name": "Pretty Woman",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Comédie",
     "platforms": [
       "disque dur",
       "DVD"
@@ -6183,7 +6183,7 @@
     "name": "Princesse malgré elle",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -6196,7 +6196,7 @@
     "name": "Projet Echelon",
     "length": "1h41min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6209,7 +6209,7 @@
     "name": "PS I Love You",
     "length": "2h06min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6222,7 +6222,7 @@
     "name": "Qu'est Ce Qu'on A Fait Au Bon Dieu",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6249,7 +6249,7 @@
     "name": "Quantum of Solace",
     "length": "1h46min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -6262,7 +6262,7 @@
     "name": "Raiponce",
     "length": "1h40min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -6275,7 +6275,7 @@
     "name": "Ratatouille",
     "length": "1h51min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -6288,7 +6288,7 @@
     "name": "Ready player one",
     "length": "2h20min",
     "type": "Film",
-    "genre": "Jeux Vidéo",
+    "genre": "Jeux Vidéo / Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -6301,7 +6301,7 @@
     "name": "Rebelle",
     "length": "1h33min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6314,7 +6314,7 @@
     "name": "Rebelles de la forêt 4",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -6327,7 +6327,7 @@
     "name": "Rémi sans famille",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Aventure",
+    "genre": "Aventure / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -6340,7 +6340,7 @@
     "name": "Replicas",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Thriller / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -6366,7 +6366,7 @@
     "name": "Révélations",
     "length": "2h37min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6379,7 +6379,7 @@
     "name": "Rex Chien Pompier",
     "length": "1h51min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "DVD"
     ],
@@ -6405,7 +6405,7 @@
     "name": "Rien à Déclarer",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -6418,7 +6418,7 @@
     "name": "Rio",
     "length": "1h36min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6431,7 +6431,7 @@
     "name": "Rio 2",
     "length": "1h41min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6444,7 +6444,7 @@
     "name": "Risque Maximum",
     "length": "1h41min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6457,7 +6457,7 @@
     "name": "Road House",
     "length": "1h54min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6470,7 +6470,7 @@
     "name": "Robinson Crusoe",
     "length": "1h29min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -6483,7 +6483,7 @@
     "name": "Rock",
     "length": "2h16min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur",
       "DVD"
@@ -6497,7 +6497,7 @@
     "name": "Ron Débloque",
     "length": "1h33min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Science-Fiction / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6510,7 +6510,7 @@
     "name": "Rules of Engagement",
     "length": "2h08min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Drame / Guerre / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6536,7 +6536,7 @@
     "name": "S.W.A.T.",
     "length": "1h57min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "DVD"
     ],
@@ -6549,7 +6549,7 @@
     "name": "Safe House",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -6562,7 +6562,7 @@
     "name": "Salt",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "DVD"
     ],
@@ -6575,7 +6575,7 @@
     "name": "San Andreas",
     "length": "1h54min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Drame",
     "platforms": [
       "DVD"
     ],
@@ -6614,7 +6614,7 @@
     "name": "Sauver ou périr",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -6627,7 +6627,7 @@
     "name": "Scarface",
     "length": "2h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Drame",
     "platforms": [
       "DVD"
     ],
@@ -6640,7 +6640,7 @@
     "name": "Scooby Doo à Hollywood",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6653,7 +6653,7 @@
     "name": "Scooby Doo au pays des pharaons",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6666,7 +6666,7 @@
     "name": "Scooby Doo Camp Scare",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6679,7 +6679,7 @@
     "name": "Scooby doo et le monstre de l'espace",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6692,7 +6692,7 @@
     "name": "Scooby Doo et le monstre de Mexico",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6705,7 +6705,7 @@
     "name": "Scooby Doo et le pilote fantôme",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6718,7 +6718,7 @@
     "name": "Scooby Doo et les Kiss",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6731,7 +6731,7 @@
     "name": "Scooby Doo et les vampires",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6744,7 +6744,7 @@
     "name": "Scooby Doo Frankencreepy",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6757,7 +6757,7 @@
     "name": "Scooby Doo Music Of The Vampire",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6770,7 +6770,7 @@
     "name": "Scooby-Doo et les Boo Brothers",
     "length": "1h15min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -6783,7 +6783,7 @@
     "name": "Scoop",
     "length": "1h36min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Fantastique / Policier",
     "platforms": [
       "DVD"
     ],
@@ -6796,7 +6796,7 @@
     "name": "Secret Défense",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -6809,7 +6809,7 @@
     "name": "Seul au Monde",
     "length": "2h23min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Drame",
     "platforms": [
       "DVD"
     ],
@@ -6822,7 +6822,7 @@
     "name": "Seul sur Mars",
     "length": "2h24min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Comédie / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -6835,7 +6835,7 @@
     "name": "Seuls Two",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -6848,7 +6848,7 @@
     "name": "Sexy Dance",
     "length": "1h43min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance / Comédie musicale",
     "platforms": [
       "disque dur"
     ],
@@ -6861,7 +6861,7 @@
     "name": "Sherlock Holmes",
     "length": "2h08min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Aventure / Comédie",
     "platforms": [
       "DVD"
     ],
@@ -6874,7 +6874,7 @@
     "name": "Shrek 2",
     "length": "1h33min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6887,7 +6887,7 @@
     "name": "Shrek 3",
     "length": "1h32min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6900,7 +6900,7 @@
     "name": "Shrek 4 - Il Etait Une Fin",
     "length": "1h33min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Fantastique / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -6913,7 +6913,7 @@
     "name": "Shutter island",
     "length": "2h18min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -6926,7 +6926,7 @@
     "name": "Sinbad La legende des 7 mers",
     "length": "1h26min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Fantastique",
     "platforms": [
       "disque dur",
       "DVD"
@@ -6940,7 +6940,7 @@
     "name": "Sixième Sens",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Fantastique / Drame",
     "platforms": [
       "DVD"
     ],
@@ -6953,7 +6953,7 @@
     "name": "Skyfall",
     "length": "2h23min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -6966,7 +6966,7 @@
     "name": "Slumdog Millionaire",
     "length": "2h",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Romance",
     "platforms": [
       "DVD"
     ],
@@ -6979,7 +6979,7 @@
     "name": "Smile",
     "length": "1h55",
     "type": "Film",
-    "genre": "Horreur / Epouvante",
+    "genre": "Horreur / Thriller",
     "platforms": [
       "Prime video"
     ],
@@ -6992,7 +6992,7 @@
     "name": "Snake Eyes",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7005,7 +7005,7 @@
     "name": "Snatch",
     "length": "1h43min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Comédie / Policier",
     "platforms": [
       "DVD"
     ],
@@ -7018,7 +7018,7 @@
     "name": "Sniper",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Guerre",
     "platforms": [
       "DVD"
     ],
@@ -7031,7 +7031,7 @@
     "name": "Sniper 2",
     "length": "1h31min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Guerre",
     "platforms": [
       "DVD"
     ],
@@ -7044,7 +7044,7 @@
     "name": "Snoopy",
     "length": "1h28min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie",
     "platforms": [
       "disque dur",
       "DVD"
@@ -7058,7 +7058,7 @@
     "name": "Snowden (2016)",
     "length": "2h14min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame / Histoire / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -7071,7 +7071,7 @@
     "name": "Soleil Levant",
     "length": "2h08min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Policier",
     "platforms": [
       "DVD"
     ],
@@ -7084,7 +7084,7 @@
     "name": "Sonic",
     "length": "1h39min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation / Comédie / Aventure / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -7097,7 +7097,7 @@
     "name": "Souris City",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7110,7 +7110,7 @@
     "name": "Speed",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7123,7 +7123,7 @@
     "name": "Spider-Man",
     "length": "2h01min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -7136,7 +7136,7 @@
     "name": "Spider-Man 2",
     "length": "2h07min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -7149,7 +7149,7 @@
     "name": "Spider-Man 3",
     "length": "2h19min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure / Science-Fiction",
     "platforms": [
       "DVD"
     ],
@@ -7162,7 +7162,7 @@
     "name": "Spirit",
     "length": "1h23min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7175,7 +7175,7 @@
     "name": "Spy kids",
     "length": "1h28min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -7188,7 +7188,7 @@
     "name": "Spy kids 2",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -7201,7 +7201,7 @@
     "name": "Spy kids 4",
     "length": "1h29min",
     "type": "Film",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Aventure / Comédie",
     "platforms": [
       "disque dur"
     ],
@@ -7214,7 +7214,7 @@
     "name": "Star Wars 1 La menace fantôme",
     "length": "2h16min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur",
       "DVD"
@@ -7228,7 +7228,7 @@
     "name": "Star Wars 2 L'attaque des clones",
     "length": "2h22min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7241,7 +7241,7 @@
     "name": "Star Wars 3 La Revanche des Sith",
     "length": "2h20min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7254,7 +7254,7 @@
     "name": "Star Wars 4 Un nouvel espoir",
     "length": "2h01min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7267,7 +7267,7 @@
     "name": "Star Wars 5 L'empire contre-attaque",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7280,7 +7280,7 @@
     "name": "Star Wars 6 Le retour du Jedi",
     "length": "2h11min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7293,7 +7293,7 @@
     "name": "Star Wars 7 Le Réveil de la Force",
     "length": "2h18min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Aventure / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7306,7 +7306,7 @@
     "name": "Starship Troopers",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Guerre",
     "platforms": [
       "DVD"
     ],
@@ -7319,7 +7319,7 @@
     "name": "Starsky et Hutch",
     "length": "1h41min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Action / Policier",
     "platforms": [
       "DVD"
     ],
@@ -7332,7 +7332,7 @@
     "name": "Street Fighter",
     "length": "1h42min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Jeux Vidéo",
     "platforms": [
       "DVD"
     ],
@@ -7345,7 +7345,7 @@
     "name": "Taken 2",
     "length": "1h31min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7358,7 +7358,7 @@
     "name": "Taken 3",
     "length": "1h48min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7371,7 +7371,7 @@
     "name": "Taxi",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Action / Policier",
     "platforms": [
       "DVD"
     ],
@@ -7384,7 +7384,7 @@
     "name": "Tel Père Telle Fille",
     "length": "1h38min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -7397,7 +7397,7 @@
     "name": "Tempête de boulettes géantes",
     "length": "1h30min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -7410,7 +7410,7 @@
     "name": "Tempête de boulettes géantes 2",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin / Science-Fiction",
     "platforms": [
       "disque dur"
     ],
@@ -7423,7 +7423,7 @@
     "name": "Terminator",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7436,7 +7436,7 @@
     "name": "Terminator 2",
     "length": "2h17min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7449,7 +7449,7 @@
     "name": "Terminator 3",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7462,7 +7462,7 @@
     "name": "The blind side",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Drame / Sport / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -7475,7 +7475,7 @@
     "name": "The Dark Knight Rises",
     "length": "2h45min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Policier / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7501,7 +7501,7 @@
     "name": "The Greatest Showman",
     "length": "1h45min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Comédie musicale / Drame / Biopic",
     "platforms": [
       "disque dur"
     ],
@@ -7527,7 +7527,7 @@
     "name": "The Matrix 4 Resurrections",
     "length": "2h28min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7540,7 +7540,7 @@
     "name": "The Patriot, Le Chemin de la Liberté",
     "length": "2h45min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Guerre / Action / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -7553,7 +7553,7 @@
     "name": "The Substitute 3",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7566,7 +7566,7 @@
     "name": "The Substitute 4",
     "length": "1h31min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7579,7 +7579,7 @@
     "name": "Time out",
     "length": "1h49min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Thriller",
     "platforms": [
       "disque dur"
     ],
@@ -7592,7 +7592,7 @@
     "name": "Tintin",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -7605,7 +7605,7 @@
     "name": "Tintin le film",
     "length": "1h47min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -7618,7 +7618,7 @@
     "name": "Titanic",
     "length": "3h15min",
     "type": "Film",
-    "genre": "Amour",
+    "genre": "Romance / Drame / Histoire",
     "platforms": [
       "disque dur",
       "DVD"
@@ -7632,7 +7632,7 @@
     "name": "Tom et Jerry",
     "length": "1h41min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7645,7 +7645,7 @@
     "name": "Tom et Jerry et Sherlock Holmes",
     "length": "1h05min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7658,7 +7658,7 @@
     "name": "Tomb Raider",
     "length": "1h58min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure / Jeux Vidéo",
     "platforms": [
       "disque dur"
     ],
@@ -7671,7 +7671,7 @@
     "name": "Top Gun",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Guerre / Drame / Romance",
     "platforms": [
       "disque dur",
       "DVD"
@@ -7685,7 +7685,7 @@
     "name": "Totally Spies",
     "length": "1h28min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Action",
     "platforms": [
       "disque dur"
     ],
@@ -7698,7 +7698,7 @@
     "name": "Tous en scène",
     "length": "1h48min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Comédie musicale / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7711,7 +7711,7 @@
     "name": "Tous en scène 2",
     "length": "1h50min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Comédie musicale / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7724,7 +7724,7 @@
     "name": "Tout en Haut du Monde (2015)",
     "length": "1h21min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -7737,7 +7737,7 @@
     "name": "Tout l'argent du monde",
     "length": "2h12min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame / Histoire",
     "platforms": [
       "disque dur"
     ],
@@ -7750,7 +7750,7 @@
     "name": "Toy Story 3",
     "length": "1h43min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -7763,7 +7763,7 @@
     "name": "Transformers 3",
     "length": "2h34min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Aventure",
     "platforms": [
       "disque dur",
       "DVD"
@@ -7777,7 +7777,7 @@
     "name": "Transporteur 3",
     "length": "1h40min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7790,7 +7790,7 @@
     "name": "Treize Jours",
     "length": "2h25min",
     "type": "Film",
-    "genre": "Histoire",
+    "genre": "Histoire / Drame / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7803,7 +7803,7 @@
     "name": "Tron",
     "length": "2h05min",
     "type": "Film",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Action / Aventure / Jeux Vidéo",
     "platforms": [
       "DVD"
     ],
@@ -7816,7 +7816,7 @@
     "name": "True Romance",
     "length": "1h59min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Romance / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7829,7 +7829,7 @@
     "name": "Turbo",
     "length": "1h36min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie / Enfantin / Sport",
     "platforms": [
       "disque dur"
     ],
@@ -7842,7 +7842,7 @@
     "name": "Twilight 1 - Fascination",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7855,7 +7855,7 @@
     "name": "Twilight 2 - Tentation",
     "length": "2h10min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7868,7 +7868,7 @@
     "name": "Twilight 3 - Hésitation",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7881,7 +7881,7 @@
     "name": "Twilight 4 - Révélation 1",
     "length": "1h57min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7894,7 +7894,7 @@
     "name": "Twilight 5 - Révélation 2",
     "length": "1h55min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7907,7 +7907,7 @@
     "name": "Twilight Love",
     "length": "2h02min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7920,7 +7920,7 @@
     "name": "Un Gars une Fille - Best Of",
     "length": null,
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie",
     "platforms": [
       "DVD"
     ],
@@ -7933,7 +7933,7 @@
     "name": "Un monstre à Paris",
     "length": "1h30min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Comédie musicale / Aventure",
     "platforms": [
       "disque dur"
     ],
@@ -7946,7 +7946,7 @@
     "name": "Un prince à New York",
     "length": "1h57min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -7959,7 +7959,7 @@
     "name": "Une Histoire Magique",
     "length": "50min",
     "type": "Film",
-    "genre": "Fantaisie",
+    "genre": "Fantastique",
     "platforms": [
       "disque dur"
     ],
@@ -7972,7 +7972,7 @@
     "name": "USS Alabama",
     "length": "1h56min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller / Guerre",
     "platforms": [
       "disque dur",
       "DVD"
@@ -7986,7 +7986,7 @@
     "name": "USS Seaviper",
     "length": "1h42min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -7999,7 +7999,7 @@
     "name": "Vaïana",
     "length": "1h47min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Comédie musicale / Fantastique / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -8012,7 +8012,7 @@
     "name": "Venom",
     "length": "1h37min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -8025,7 +8025,7 @@
     "name": "Venom 2",
     "length": "1h52min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Horreur",
     "platforms": [
       "disque dur"
     ],
@@ -8038,7 +8038,7 @@
     "name": "Vert Emeraude",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Aventure",
+    "genre": "Aventure / Action / Comédie / Romance",
     "platforms": [
       "disque dur"
     ],
@@ -8051,7 +8051,7 @@
     "name": "Vertical Limit",
     "length": "2h04min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -8064,7 +8064,7 @@
     "name": "Vice Versa",
     "length": "1h35min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Enfantin / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -8077,7 +8077,7 @@
     "name": "Wall-E",
     "length": "1h38min",
     "type": "Dessin Animé",
-    "genre": "Sci-Fi",
+    "genre": "Science-Fiction / Animation / Comédie / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -8090,7 +8090,7 @@
     "name": "Wanted",
     "length": "1h50min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Thriller",
     "platforms": [
       "DVD"
     ],
@@ -8103,7 +8103,7 @@
     "name": "Waterworld",
     "length": "2h15min",
     "type": "Film",
-    "genre": "Post-Apocalypse",
+    "genre": "Post-Apocalypse / Action / Science-Fiction / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -8116,7 +8116,7 @@
     "name": "Will hunting",
     "length": "2h06min",
     "type": "Film",
-    "genre": "Humour",
+    "genre": "Drame",
     "platforms": [
       "disque dur"
     ],
@@ -8129,7 +8129,7 @@
     "name": "Winx",
     "length": "N/A (Série)",
     "type": "Série",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -8142,7 +8142,7 @@
     "name": "WINX CLUB l'aventure magique",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -8155,7 +8155,7 @@
     "name": "Winx Club le film le secret du royaume perdu",
     "length": "1h25min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -8168,7 +8168,7 @@
     "name": "World Trade Center",
     "length": "2h09min",
     "type": "Film",
-    "genre": "Thriller",
+    "genre": "Thriller / Drame / Histoire",
     "platforms": [
       "DVD"
     ],
@@ -8181,7 +8181,7 @@
     "name": "X-Men - L'Affrontement Final",
     "length": "1h44min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -8194,7 +8194,7 @@
     "name": "X-Men 2",
     "length": "2h13min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -8207,7 +8207,7 @@
     "name": "X-Men Origins - Wolverine",
     "length": "1h47min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Science-Fiction / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -8220,7 +8220,7 @@
     "name": "Yamakasi",
     "length": "1h30min",
     "type": "Film",
-    "genre": "Action",
+    "genre": "Action / Aventure",
     "platforms": [
       "DVD"
     ],
@@ -8233,7 +8233,7 @@
     "name": "Your Name",
     "length": "1h46min",
     "type": "Dessin Animé",
-    "genre": "Fantaisie",
+    "genre": "Fantastique / Animation / Romance / Drame",
     "platforms": [
       "disque dur"
     ],
@@ -8246,7 +8246,7 @@
     "name": "Zarafa",
     "length": "1h18min",
     "type": "Dessin Animé",
-    "genre": "Aventure",
+    "genre": "Aventure / Animation / Histoire / Enfantin",
     "platforms": [
       "disque dur"
     ],
@@ -8259,7 +8259,7 @@
     "name": "Zhu Zhu Pets",
     "length": "1h12min",
     "type": "Dessin Animé",
-    "genre": "Enfantin",
+    "genre": "Enfantin / Animation",
     "platforms": [
       "disque dur"
     ],
@@ -8272,7 +8272,7 @@
     "name": "Zootopie",
     "length": "1h48min",
     "type": "Dessin Animé",
-    "genre": "Humour",
+    "genre": "Comédie / Animation / Aventure / Enfantin / Policier",
     "platforms": [
       "disque dur"
     ],
@@ -8311,7 +8311,7 @@
     "name": "Charlie et ses drôles de dames",
     "length": "1h38",
     "type": "Film",
-    "genre": "Action / Comédie",
+    "genre": "Action / Comédie / Aventure",
     "platforms": [
       "dvd"
     ],
@@ -8324,7 +8324,7 @@
     "name": "L'Odyssée de Pi",
     "length": "2h07",
     "type": "Film",
-    "genre": "Aventure / Drame",
+    "genre": "Aventure / Drame / Fantastique",
     "platforms": [
       "dvd"
     ],
@@ -8337,7 +8337,7 @@
     "name": "La Nuit au musée 2",
     "length": "1h45",
     "type": "Film",
-    "genre": "Comédie / Fantastique",
+    "genre": "Comédie / Fantastique / Enfantin / Aventure",
     "platforms": [
       "dvd"
     ],
@@ -8350,7 +8350,7 @@
     "name": "Le Substitut",
     "length": "1h54",
     "type": "Film",
-    "genre": "Action / Thriller",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "dvd"
     ],
@@ -8363,7 +8363,7 @@
     "name": "Le Substitut 2 : La Vengeance",
     "length": "1h30",
     "type": "Film",
-    "genre": "Action / Thriller",
+    "genre": "Action / Thriller / Policier",
     "platforms": [
       "dvd"
     ],
@@ -8402,7 +8402,7 @@
     "name": "Prison Break",
     "length": "N/A (Série - 4 Saisons / 79 épisodes)",
     "type": "Série",
-    "genre": "Action / Thriller / Drame",
+    "genre": "Action / Thriller / Drame / Policier",
     "platforms": [
       "dvd"
     ],
