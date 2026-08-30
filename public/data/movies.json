@@ -2102,16 +2102,16 @@
     "intrigue": "Un extraterrestre égaré sur Terre se lie d'amitié avec un jeune garçon qui l'aide à rentrer chez lui."
   },
   {
-    "name": "Eclipse",
-    "length": "2h04min",
+    "name": "Éclipse Totale",
+    "length": "1h51min",
     "type": "Film",
-    "genre": "Fantastique / Romance",
+    "genre": "Drame / Biopic",
     "platforms": [
       "DVD"
     ],
     "id": 162,
     "image_url": "/img/posters/Eclipse.png",
-    "trailer_url": "https://www.youtube.com/watch?v=2iA47KvIWJQ",
+    "trailer_url": "https://www.youtube.com/watch?v=bxk6z5zoutg",
     "intrigue": "Bella doit choisir définitivement entre Edward et Jacob alors qu'une armée de nouveau-nés vampires menace Forks."
   },
   {
@@ -2224,7 +2224,8 @@
     "type": "Dessin Animé",
     "genre": "Fantastique / Animation / Aventure / Enfantin",
     "platforms": [
-      "disque dur"
+      "disque dur",
+      "DVD"
     ],
     "id": 171,
     "image_url": "/img/posters/Epic.png",
@@ -2552,17 +2553,17 @@
     "intrigue": "Un général romain trahi et réduit en esclavage devient gladiator pour se venger de l'empereur qui a tué sa famille."
   },
   {
-    "name": "Goal II",
-    "length": "1h56min",
+    "name": "Goal",
+    "length": "1h58min",
     "type": "Film",
     "genre": "Comédie / Sport / Drame",
     "platforms": [
       "DVD"
     ],
     "id": 196,
-    "image_url": "/img/posters/Goal_II.png",
-    "trailer_url": "https://www.youtube.com/watch?v=voIDgjzuKZI",
-    "intrigue": "Un jeune footballeur poursuit son rêve de gloire en rejoignant le Real Madrid."
+    "image_url": "/img/posters/Goal.png",
+    "trailer_url": "https://www.youtube.com/watch?v=QJkSlNh1ojg",
+    "intrigue": "Lorsqu'à l'âge de dix ans, Santiago Munez passe la frontière mexicaine pour aller vivre aux Etats-Unis, il n'a qu'un rêve : devenir un grand joueur de foot. Aujourd'hui repéré par un ancien footballeur, Santiago part pour l'Angleterre, pays étranger où le foot est une religion et le terrain de Newcastle une cathédrale. Pour être engagé dans l'un des clubs les plus prestigieux du monde, il va devoir prouver qu'il a le talent et le cran nécessaire."
   },
   {
     "name": "Golden Eyes",
@@ -8410,5 +8411,642 @@
     "image_url": "/img/posters/PrisonBreak.png",
     "trailer_url": "https://www.youtube.com/watch?v=xB6OQZRgl-E",
     "intrigue": "Michael Scofield se fait délibérément incarcérer dans le pénitencier de Fox River où son frère Lincoln Burrows attend son exécution pour un crime qu'il n'a pas commis. Ayant tatoué les plans du bâtiment sur son corps, Michael prépare leur évasion."
+  },
+  {
+    "name": "Captain America : First Avenger",
+    "length": "2h04",
+    "type": "Film",
+    "genre": "Action / Super-héros",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 24,
+    "image_url": "/img/posters/CaptainAmericaFirstAvenger.png",
+    "trailer_url": "https://www.youtube.com/watch?v=jF1IHPba2Bk",
+    "intrigue": "Pendant la Seconde Guerre mondiale, le frêle Steve Rogers se porte volontaire pour une expérience scientifique qui le transforme en super-soldat. Connu sous le nom de Captain America, il doit affronter l'organisation nazie HYDRA et son chef, Crâne Rouge."
+  },
+  {
+    "name": "Séisme",
+    "length": "1h45",
+    "type": "Film",
+    "genre": "Catastrophe / Action",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 25,
+    "image_url": "/img/posters/Seisme.png",
+    "trailer_url": "https://www.youtube.com/watch?v=XIQNL6T7aSg",
+    "intrigue": "Face à l'imminence d'un tremblement de terre dévastateur sans précédent, des scientifiques et des secouristes luttent contre la montre pour survivre et sauver le maximum de vies au milieu du chaos urbain."
+  },
+  {
+    "name": "Gremlins",
+    "length": "1h46",
+    "type": "Film",
+    "genre": "Comédie / Fantastique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 26,
+    "image_url": "/img/posters/Gremlins.png",
+    "trailer_url": "https://www.youtube.com/watch?v=QJwYQt8dHi4",
+    "intrigue": "Un inventeur offre à son fils une petite créature étrange, un mogwai, avec trois règles strictes à respecter. Malheureusement, les règles sont enfreintes, libérant une horde de petits monstres farceurs et destructeurs dans la ville."
+  },
+  {
+    "name": "Le Soldat (Laser Mission)",
+    "length": "1h24",
+    "type": "Film",
+    "genre": "Action",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 27,
+    "image_url": "/img/posters/LeSoldat.png",
+    "trailer_url": "https://www.youtube.com/watch?v=VePrxY6hVTw",
+    "intrigue": "Un mercenaire est engagé par la CIA pour sauver un scientifique spécialiste des armes laser, capturé par le KGB, avant qu'une arme de destruction massive ne soit construite."
+  },
+  {
+    "name": "La Déchirure",
+    "length": "2h21",
+    "type": "Film",
+    "genre": "Guerre / Drame",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 28,
+    "image_url": "/img/posters/LaDechirure.png",
+    "trailer_url": "https://www.youtube.com/watch?v=yzi0TohDUPk",
+    "intrigue": "Au Cambodge en 1975, un journaliste américain et son interprète cambodgien se retrouvent pris au piège lors de la prise de Phnom Penh par les Khmers rouges, entraînant une lutte désespérée pour la survie."
+  },
+  {
+    "name": "World War Z",
+    "length": "1h56",
+    "type": "Film",
+    "genre": "Action / Horreur",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 29,
+    "image_url": "/img/posters/WorldWarZ.png",
+    "trailer_url": "https://www.youtube.com/watch?v=jTrmqThqpK8",
+    "intrigue": "Un ancien enquêteur des Nations Unies, Gerry Lane, parcourt le monde dans une course contre la montre pour trouver un moyen d'arrêter une pandémie terrifiante transformant les humains en créatures féroces."
+  },
+  {
+    "name": "L'Affaire Josey Aimes",
+    "length": "2h06",
+    "type": "Film",
+    "genre": "Drame",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 30,
+    "image_url": "/img/posters/LAffaireJoseyAimes.png",
+    "trailer_url": "https://www.youtube.com/watch?v=OVEVkGvG7sI",
+    "intrigue": "Fuyant un mari violent, Josey Aimes retourne dans sa ville natale et travaille dans la mine locale. Victime de harcèlement de la part de ses collègues masculins, elle décide d'intenter le premier recours collectif pour harcèlement sexuel aux États-Unis."
+  },
+  {
+    "name": "Cars 3",
+    "length": "1h42",
+    "type": "Film",
+    "genre": "Animation / Aventure",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 31,
+    "image_url": "/img/posters/Cars3.png",
+    "trailer_url": "https://www.youtube.com/watch?v=UPe4x4dhtIc",
+    "intrigue": "Dépassé par une nouvelle génération de bolides ultra-rapides, le légendaire Flash McQueen est soudainement mis sur la touche. Pour prouver qu'il a toujours sa place, il s'entraîne avec une jeune mécanicienne pleine d'idées."
+  },
+  {
+    "name": "Le Mariage de mon meilleur ami",
+    "length": "1h45",
+    "type": "Film",
+    "genre": "Comédie romantique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 32,
+    "image_url": "/img/posters/LeMariageDeMonMeilleurAmi.png",
+    "trailer_url": "https://www.youtube.com/watch?v=cLbhcH4AiIA",
+    "intrigue": "Julianne et Michael ont fait le pacte de se marier s'ils étaient toujours célibataires à 28 ans. Quelques jours avant la date fatidique, Michael lui annonce ses fiançailles avec une autre, poussant Julianne à tout faire pour saboter le mariage."
+  },
+  {
+    "name": "L'Homme du président",
+    "length": "1h30",
+    "type": "Film",
+    "genre": "Action",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 33,
+    "image_url": "/img/posters/LHommeDuPresident.png",
+    "trailer_url": "https://www.youtube.com/watch?v=esD14usHKsw",
+    "intrigue": "Joshua McCord est un agent secret surqualifié qui ne répond qu'aux ordres directs du président des États-Unis. Réfléchissant à la retraite, il doit trouver et former son remplaçant tout en accomplissant de dangereuses missions."
+  },
+  {
+    "name": "RRRrrrr!!!",
+    "length": "1h38",
+    "type": "Film",
+    "genre": "Comédie",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 34,
+    "image_url": "/img/posters/RRRrrrr.png",
+    "trailer_url": "https://www.youtube.com/watch?v=TlmeBW5tVHM",
+    "intrigue": "À l'ère préhistorique, deux tribus s'affrontent pour un secret bien gardé : celui de la recette du shampoing. Lorsqu'un meurtre est commis pour la première fois de l'histoire, l'enquête commence."
+  },
+  {
+    "name": "Hitch, expert en séduction",
+    "length": "1h58",
+    "type": "Film",
+    "genre": "Comédie romantique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 35,
+    "image_url": "/img/posters/Hitch.png",
+    "trailer_url": "https://www.youtube.com/watch?v=8nvkWv7Uapg",
+    "intrigue": "Alex Hitchens, alias Hitch, est un expert en séduction qui aide les hommes timides à conquérir la femme de leurs rêves. Ses propres techniques sont cependant mises à rude épreuve lorsqu'il tombe amoureux d'une journaliste mondaine perspicace."
+  },
+  {
+    "name": "Les Petits Mouchoirs",
+    "length": "2h34",
+    "type": "Film",
+    "genre": "Comédie dramatique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 36,
+    "image_url": "/img/posters/LesPetitsMouchoirs.png",
+    "trailer_url": "https://www.youtube.com/watch?v=YMoOibMbOYU",
+    "intrigue": "Après qu'un des leurs a été grièvement blessé dans un accident, une bande d'amis décide tout de même de partir en vacances ensemble au Cap Ferret. Sur place, les rancœurs, les secrets et les mensonges vont remonter à la surface."
+  },
+  {
+    "name": "Le Fils du Français",
+    "length": "1h45",
+    "type": "Film",
+    "genre": "Comédie / Aventure",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 37,
+    "image_url": "/img/posters/LeFilsDuFrancais.png",
+    "trailer_url": "https://www.dailymotion.com/video/x8mm9j2",
+    "intrigue": "Deux femmes que tout oppose se retrouvent en Amérique du Sud pour tenter de retrouver un fils disparu dans la forêt amazonienne. Leur périple est parsemé de dangers et de rencontres rocambolesques."
+  },
+  {
+    "name": "Le Pari",
+    "length": "1h37",
+    "type": "Film",
+    "genre": "Comédie",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 38,
+    "image_url": "/img/posters/LePari.png",
+    "trailer_url": "https://www.youtube.com/watch?v=nltpLW_HOrA",
+    "intrigue": "Bernard et Didier, deux beaux-frères qui se détestent, font le pari insensé d'arrêter de fumer pendant 15 jours pour gagner le droit à l'héritage d'un de leurs oncles. Les conséquences sur leur comportement seront désastreuses."
+  },
+  {
+    "name": "Le Grinch",
+    "length": "1h44",
+    "type": "Film",
+    "genre": "Comédie / Fantastique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 39,
+    "image_url": "/img/posters/LeGrinch.png",
+    "trailer_url": "https://www.youtube.com/watch?v=YeBjoa-LRNA",
+    "intrigue": "Le Grinch, un ermite grognon et cynique qui déteste Noël, décide de voler la fête et les cadeaux des habitants de Chouville. Son plan est perturbé par la gentillesse d'une petite fille prénommée Cindy Lou."
+  },
+  {
+    "name": "Bad Boys",
+    "length": "1h59",
+    "type": "Film",
+    "genre": "Action / Comédie",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 40,
+    "image_url": "/img/posters/BadBoys.png",
+    "trailer_url": "https://www.youtube.com/watch?v=P9-EBg4QGEY",
+    "intrigue": "Deux inspecteurs de la brigade des stupéfiants de Miami aux caractères diamétralement opposés ont 72 heures pour récupérer une cargaison d'héroïne valant 100 millions de dollars volée dans leur propre commissariat."
+  },
+  {
+    "name": "Bad Boys 2",
+    "length": "2h27",
+    "type": "Film",
+    "genre": "Action / Comédie",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 41,
+    "image_url": "/img/posters/BadBoys2.png",
+    "trailer_url": "https://www.youtube.com/watch?v=vJe_UT7LKfY",
+    "intrigue": "Les inspecteurs Mike Lowrey et Marcus Burnett intègrent une unité d'élite pour arrêter un baron de la drogue meurtrier qui inonde les rues de Miami d'ecstasy, tout en gérant les tensions personnelles entre eux."
+  },
+  {
+    "name": "Mee-Shee : Le Secret des profondeurs",
+    "length": "1h34",
+    "type": "Film",
+    "genre": "Aventure / Famille",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 42,
+    "image_url": "/img/posters/MeeShee.png",
+    "trailer_url": "https://www.youtube.com/watch?v=SLwfT734Gfs",
+    "intrigue": "Un ingénieur new-yorkais part au Canada pour retrouver une foreuse perdue dans un lac. Accompagné de son jeune fils, ils découvrent une mystérieuse créature légendaire vivant dans les eaux et doivent la protéger contre des chasseurs malveillants."
+  },
+  {
+    "name": "Death Train",
+    "length": "1h40",
+    "type": "Film",
+    "genre": "Action",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 43,
+    "image_url": "/img/posters/DeathTrain.png",
+    "trailer_url": "https://www.youtube.com/watch?v=G_6RcPe_R48",
+    "intrigue": "Des terroristes prennent le contrôle d'un train de marchandises européen transportant une bombe atomique. Une force d'intervention des Nations Unies est chargée d'intercepter le convoi avant qu'il n'atteigne l'Irak."
+  },
+  {
+    "name": "En territoire ennemi 2",
+    "length": "1h36",
+    "type": "Film",
+    "genre": "Action / Guerre",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 44,
+    "image_url": "/img/posters/EnTerritoireEnnemi2.png",
+    "trailer_url": "https://www.youtube.com/watch?v=K0C5KSHIvbU",
+    "intrigue": "Une équipe de commandos américains est envoyée en Corée du Nord pour détruire un site de missiles nucléaires clandestin, mais la mission échoue, et ils se retrouvent bloqués derrière les lignes ennemies."
+  },
+  {
+    "name": "Goodbye Bafana",
+    "length": "1h58",
+    "type": "Film",
+    "genre": "Drame / Biopic",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 45,
+    "image_url": "/img/posters/GoodbyeBafana.png",
+    "trailer_url": "https://www.youtube.com/watch?v=Hmdz-HLeIhM",
+    "intrigue": "L'histoire vraie et la relation complexe entre Nelson Mandela et James Gregory, le geôlier afrikaner qui fut en charge de la surveillance du futur président de l'Afrique du Sud pendant plus de vingt ans."
+  },
+  {
+    "name": "Hulk",
+    "length": "2h18",
+    "type": "Film",
+    "genre": "Action / Science-Fiction",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 47,
+    "image_url": "/img/posters/Hulk.png",
+    "trailer_url": "https://www.youtube.com/watch?v=n5xO7qjVcdQ",
+    "intrigue": "Le scientifique Bruce Banner est accidentellement exposé à une dose massive de rayons gamma. À la suite de cette mutation, il se transforme en une créature verte gigantesque et indestructible lorsqu'il ressent de la colère ou de la peur."
+  },
+  {
+    "name": "The Dark Knight : Le Chevalier Noir",
+    "length": "2h32",
+    "type": "Film",
+    "genre": "Action / Thriller",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 48,
+    "image_url": "/img/posters/TheDarkKnight.png",
+    "trailer_url": "https://www.youtube.com/watch?v=UMgb3hQCb08",
+    "intrigue": "Avec l'aide du lieutenant Gordon et du procureur Harvey Dent, Batman entreprend de démanteler le crime organisé à Gotham. Tout bascule lorsqu'un criminel psychopathe et chaotique, le Joker, sème la terreur dans la ville."
+  },
+  {
+    "name": "The Other Man",
+    "length": "1h28",
+    "type": "Film",
+    "genre": "Drame / Thriller",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 49,
+    "image_url": "/img/posters/TheOtherMan.png",
+    "trailer_url": "https://www.youtube.com/watch?v=0Eux285RUUI",
+    "intrigue": "Après la disparition de sa femme, Peter découvre qu'elle menait une double vie et entretenait une liaison amoureuse. Rongé par la jalousie, il décide de retrouver l'amant en question pour comprendre."
+  },
+  {
+    "name": "Pour un garçon",
+    "length": "1h41",
+    "type": "Film",
+    "genre": "Comédie dramatique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 50,
+    "image_url": "/img/posters/PourUnGarcon.png",
+    "trailer_url": "https://www.youtube.com/watch?v=8rhHGIp2Br8",
+    "intrigue": "Will, un célibataire endurci et égoïste vivant des droits d'auteur de son père, invente un fils imaginaire pour séduire des mères célibataires. Sa vie est bouleversée lorsqu'il se lie d'amitié avec Marcus, un jeune garçon marginal."
+  },
+  {
+    "name": "Sale Môme",
+    "length": "1h44",
+    "type": "Film",
+    "genre": "Comédie / Famille",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 51,
+    "image_url": "/img/posters/SaleMome.png",
+    "trailer_url": "https://www.youtube.com/watch?v=2wDYC5DdAEk",
+    "intrigue": "Russ Duritz, un consultant en image cynique et antipathique, voit sa vie basculer lorsqu'il rencontre un mystérieux petit garçon de huit ans qui s'avère être lui-même, enfant."
+  },
+  {
+    "name": "Un automne à New York",
+    "length": "1h43",
+    "type": "Film",
+    "genre": "Romance / Drame",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 52,
+    "image_url": "/img/posters/UnAutomneANewYork.png",
+    "trailer_url": "https://www.youtube.com/watch?v=ySzycMWhxX4",
+    "intrigue": "Will Keane, un restaurateur new-yorkais volage d'une cinquantaine d'années, tombe amoureux de Charlotte, une jeune femme lumineuse. Il apprend peu après qu'elle est atteinte d'une grave maladie au cœur."
+  },
+  {
+    "name": "À vif !",
+    "length": "1h41",
+    "type": "Film",
+    "genre": "Comédie dramatique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 53,
+    "image_url": "/img/posters/AVif.png",
+    "trailer_url": "https://www.youtube.com/watch?v=cl1vKdRW0Wk",
+    "intrigue": "Adam Jones est un chef cuisinier brillant mais auto-destructeur. Après avoir ruiné sa carrière à Paris à cause de la drogue et de son ego, il part à Londres avec l'objectif de décrocher une troisième étoile Michelin."
+  },
+  {
+    "name": "Basic",
+    "length": "1h38",
+    "type": "Film",
+    "genre": "Thriller / Action",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 54,
+    "image_url": "/img/posters/Basic.png",
+    "trailer_url": "https://www.youtube.com/watch?v=zXrZkwzL6HE",
+    "intrigue": "Un agent de la DEA est sollicité pour enquêter sur la disparition mystérieuse d'un sergent instructeur impitoyable et de plusieurs cadets lors d'un entraînement des forces spéciales dans la jungle panaméenne."
+  },
+  {
+    "name": "Ocean's Eleven",
+    "length": "1h56",
+    "type": "Film",
+    "genre": "Action / Comédie",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 55,
+    "image_url": "/img/posters/OceansEleven.png",
+    "trailer_url": "https://www.youtube.com/watch?v=y3io4y46gxM",
+    "intrigue": "À peine sorti de prison, le charismatique cambrioleur Danny Ocean recrute une équipe d'experts pour accomplir un braquage impossible : dévaliser simultanément les trois plus grands casinos de Las Vegas."
+  },
+  {
+    "name": "Alias",
+    "length": "N/A",
+    "type": "Série",
+    "genre": "Action / Espionnage",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 56,
+    "image_url": "/img/posters/Alias.png",
+    "trailer_url": "N/A",
+    "intrigue": "L'étudiante Sydney Bristow est recrutée comme agent secret par le SD-6. Découvrant qu'il s'agit d'une organisation criminelle, elle devient agent double pour la CIA afin de la détruire de l'intérieur."
+  },
+  {
+    "name": "Daredevil",
+    "length": "1h43",
+    "type": "Film",
+    "genre": "Action / Super-héros",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 58,
+    "image_url": "/img/posters/Daredevil.png",
+    "trailer_url": "https://www.youtube.com/watch?v=-g8fSUNeYIE",
+    "intrigue": "Avocat aveugle le jour, Matt Murdock utilise ses autres sens surdéveloppés pour combattre le crime la nuit dans les rues de New York, sous les traits du justicier masqué Daredevil."
+  },
+  {
+    "name": "Les 4 Fantastiques et le Surfer d'argent",
+    "length": "1h32",
+    "type": "Film",
+    "genre": "Action / Super-héros",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 59,
+    "image_url": "/img/posters/Les4FantastiquesEtLeSurferDArgent.png",
+    "trailer_url": "https://www.youtube.com/watch?v=pd8WJLh3riE",
+    "intrigue": "L'équipe de super-héros doit faire face à une menace cosmique lorsque le mystérieux héraut interstellaire connu sous le nom du Surfer d'argent arrive sur Terre, annonçant sa destruction imminente."
+  },
+  {
+    "name": "Un monde meilleur",
+    "length": "2h03",
+    "type": "Film",
+    "genre": "Drame",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 60,
+    "image_url": "/img/posters/UnMondeMeilleur.png",
+    "trailer_url": "https://www.youtube.com/watch?v=gPDHfZA4z_k",
+    "intrigue": "Pour un devoir de classe, un jeune garçon imagine un système pyramidal de bonnes actions désintéressées. L'idée grandit rapidement, provoquant des répercussions inattendues sur sa communauté et son entourage."
+  },
+  {
+    "name": "Il était une fois",
+    "length": "1h47",
+    "type": "Film",
+    "genre": "Comédie / Fantastique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 61,
+    "image_url": "/img/posters/IlEtaitUneFois.png",
+    "trailer_url": "https://www.youtube.com/watch?v=XgzI6x-9zMU",
+    "intrigue": "Bannie de son royaume féerique par une méchante reine, la princesse Giselle est projetée dans le monde réel, en plein cœur de Manhattan, où elle bouleverse la vie d'un avocat cynique."
+  },
+  {
+    "name": "SOS Fantômes",
+    "length": "1h45",
+    "type": "Film",
+    "genre": "Comédie / Fantastique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 62,
+    "image_url": "/img/posters/SOSFantomes.png",
+    "trailer_url": "https://www.youtube.com/watch?v=qQmeh25Rr-k",
+    "intrigue": "Trois scientifiques farfelus et un ancien Marine fondent une agence de capture d'ectoplasmes. Ils deviennent rapidement l'unique espoir de New York lorsqu'une menace paranormale majeure s'abat sur la ville."
+  },
+  {
+    "name": "Annie",
+    "length": "1h58",
+    "type": "Film",
+    "genre": "Comédie musicale",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 63,
+    "image_url": "/img/posters/Annie.png",
+    "trailer_url": "https://www.youtube.com/watch?v=velVyH89W6Q",
+    "intrigue": "Annie, une jeune orpheline débrouillarde, voit sa vie transformée lorsqu'un riche politicien milliardaire l'accueille chez lui dans le but d'améliorer son image publique en pleine campagne électorale."
+  },
+  {
+    "name": "Trois petites filles",
+    "length": "1h30",
+    "type": "Film",
+    "genre": "Comédie dramatique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 64,
+    "image_url": "/img/posters/TroisPetitesFilles.png",
+    "trailer_url": "https://www.youtube.com/watch?v=KNU39Ha5POY",
+    "intrigue": "Pendant la Seconde Guerre mondiale, en Corse, trois jeunes filles pleines de vie sont partagées entre l'insouciance de l'adolescence, leurs premiers émois amoureux et les dures réalités du conflit."
+  },
+  {
+    "name": "Invictus",
+    "length": "2h14",
+    "type": "Film",
+    "genre": "Biopic / Sport",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 65,
+    "image_url": "/img/posters/Invictus.png",
+    "trailer_url": "https://www.youtube.com/watch?v=PEO6-fe9qPA",
+    "intrigue": "En 1995, le président sud-africain Nelson Mandela s'associe au capitaine de l'équipe nationale de rugby, les Springboks, pour tenter de remporter la Coupe du monde et d'unifier le pays fraîchement sorti de l'apartheid."
+  },
+  {
+    "name": "Demandez la permission aux enfants",
+    "length": "1h36",
+    "type": "Film",
+    "genre": "Comédie",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 66,
+    "image_url": "/img/posters/DemandezLaPermissionAuxEnfants.png",
+    "trailer_url": "https://www.youtube.com/watch?v=-YmwOTW3Ivg",
+    "intrigue": "Trois familles totalement différentes tentent de reprendre le contrôle de leur foyer face à des enfants devenus rois. Pour s'en sortir, les parents vont mettre en place des stratagèmes peu orthodoxes."
+  },
+  {
+    "name": "Australia",
+    "length": "2h45",
+    "type": "Film",
+    "genre": "Romance / Aventure",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 67,
+    "image_url": "/img/posters/Australia.png",
+    "trailer_url": "https://www.youtube.com/watch?v=mU8MR9wEHTI",
+    "intrigue": "À l'aube de la Seconde Guerre mondiale, une aristocrate anglaise hérite d'un vaste ranch en Australie. Elle fait équipe avec un cow-boy rustre pour protéger son bétail à travers les terres impitoyables du continent."
+  },
+  {
+    "name": "Wildfire",
+    "length": "N/A",
+    "type": "Série",
+    "genre": "Drame",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 68,
+    "image_url": "/img/posters/Wildfire.png",
+    "trailer_url": "https://www.youtube.com/watch?v=aqAAifaQbXg",
+    "intrigue": "Kris Furillo, une jeune fille au passé trouble fraîchement sortie d'un centre de détention, trouve une seconde chance en travaillant dans un ranch pour chevaux, développant un lien unique avec un mustang nommé Wildfire."
+  },
+  {
+    "name": "Voyage au centre de la Terre 2 : L'île mystérieuse",
+    "length": "1h34",
+    "type": "Film",
+    "genre": "Aventure / Fantastique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 69,
+    "image_url": "/img/posters/VoyageAuCentreDeLaTerre2.png",
+    "trailer_url": "https://www.youtube.com/watch?v=bOXMGQ9Wx4c",
+    "intrigue": "Le jeune Sean Anderson et son beau-père partent à la recherche de son grand-père, perdu sur une île mythique disparue abritant des formes de vie étonnantes et de nombreux dangers."
+  },
+  {
+    "name": "Le Secret de Terabithia",
+    "length": "1h36",
+    "type": "Film",
+    "genre": "Drame / Fantastique",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 70,
+    "image_url": "/img/posters/LeSecretDeTerabithia.png",
+    "trailer_url": "https://www.youtube.com/watch?v=m0gwtpExGlw",
+    "intrigue": "Deux collégiens mis à l'écart, Jess et Leslie, se lient d'amitié et inventent dans une forêt voisine le royaume magique de Terabithia, un endroit secret où ils règnent en maîtres et échappent à leur quotidien."
+  },
+  {
+    "name": "Dany Boon : À s'baraque et en ch'ti",
+    "length": "1h40",
+    "type": "Spectacle",
+    "genre": "Humour",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 71,
+    "image_url": "/img/posters/DanyBoonASbaraque.png",
+    "trailer_url": "https://www.youtube.com/watch?v=2oy_aBJBL1E",
+    "intrigue": "Dany Boon revient sur ses terres d'origine pour un spectacle mémorable, interprété entièrement en patois ch'timi, racontant avec nostalgie et humour des tranches de vie et la culture du Nord de la France."
+  },
+  {
+    "name": "Le Royaume",
+    "length": "1h50",
+    "type": "Film",
+    "genre": "Action / Thriller",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 72,
+    "image_url": "/img/posters/LeRoyaume.png",
+    "trailer_url": "https://www.youtube.com/watch?v=6AtnCX1Xu0Y",
+    "intrigue": "Après un attentat meurtrier contre des civils américains en Arabie Saoudite, une équipe d'élite du FBI est envoyée sur place pour une enquête express complexe, semée d'embûches culturelles et politiques."
+  },
+  {
+    "name": "L'Homme qui murmurait à l'oreille des chevaux",
+    "length": "2h50",
+    "type": "Film",
+    "genre": "Drame / Romance",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 73,
+    "image_url": "/img/posters/LHommeQuiMurmurait.png",
+    "trailer_url": "https://www.youtube.com/watch?v=o_FClAi1aXA",
+    "intrigue": "À la suite d'un terrible accident d'équitation, une mère emmène sa fille traumatisée et son cheval dans le Montana, pour rencontrer un dresseur hors pair aux méthodes thérapeutiques uniques."
+  },
+  {
+    "name": "Bloodsport",
+    "length": "1h32",
+    "type": "Film",
+    "genre": "Action / Arts martiaux",
+    "platforms": [
+      "dvd"
+    ],
+    "id": 74,
+    "image_url": "/img/posters/Bloodsport.png",
+    "trailer_url": "https://www.youtube.com/watch?v=CQlKBsg0Imw",
+    "intrigue": "Frank Dux, un champion américain d'arts martiaux, déserte l'armée pour participer au Kumite, un tournoi de combats clandestin ultra-violent à Hong Kong où tous les coups sont permis."
   }
 ]

@@ -139,6 +139,8 @@ const FRANCHISES = [
   { key: 'shrek', aliases: ['shrek'] },
   { key: 'toy-story', aliases: ['toy story'] },
   { key: 'cars', aliases: ['cars'] },
+  { key: 'Batman', aliases: ['Dark Knight'] },
+  { key: 'Les 4 fantastiques', aliases: ['Les 4 fantastiques'] },
   {
     key: 'indiana-jones', aliases: ['indiana jones'],
     order: ['arche perdue', 'temple maudit', 'derniere croisade', 'royaume du crane de cristal'],
@@ -157,6 +159,7 @@ const FRANCHISES = [
   { key: 'braquage', aliases: ['braquage'] },
   { key: 'hotel-transylvania', aliases: ['hotel transylvania', 'hotel transylvanie'] },
   { key: 'age-de-glace', aliases: ['age de glace'] },
+  { key: 'En Territoire Ennemi', aliases: ['En Territoire Ennemi'] },
   {
     key: 'clochette', aliases: ['clochette'],
     order: ['la fee clochette', 'secret des fees', 'tournoi des fees', 'expedition feerique', 'et les pirates', 'creature legendaire'],
